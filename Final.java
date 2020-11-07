@@ -11,4 +11,9 @@ import javax.swing.*;
 import javax.swing.Timer;
 import java.util.*;
 import java.io.*;           
-imp
+import javax.imageio.*;
+import java.awt.image.*;  
+
+public class Final
+{
+    JFrame frame;               // 
