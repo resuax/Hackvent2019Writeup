@@ -16,4 +16,6 @@ import java.awt.image.*;
 
 public class Final
 {
-    JFrame frame;               // 
+    JFrame frame;               // Holds everything in game.
+    CardLayout cards;           // CardLayout for main panels.
+    CardLa
