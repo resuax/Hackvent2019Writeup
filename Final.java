@@ -18,4 +18,6 @@ public class Final
 {
     JFrame frame;               // Holds everything in game.
     CardLayout cards;           // CardLayout for main panels.
-    CardLa
+    CardLayout welcomeLayout;   // CardLayout for welcoming user to game.
+
+    TitlePanel titlePanel
