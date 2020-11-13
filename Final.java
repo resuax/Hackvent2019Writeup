@@ -21,4 +21,7 @@ public class Final
     CardLayout welcomeLayout;   // CardLayout for welcoming user to game.
 
     TitlePanel titlePanel;  // Contains main menu and instructions panels.
-    Timer createGerms;      /
+    Timer createGerms;      // Places germs on game board.
+    Timer moveGerms;        // Moves germs down on board.
+    
+    boolean pauseBo
