@@ -20,4 +20,5 @@ public class Final
     CardLayout cards;           // CardLayout for main panels.
     CardLayout welcomeLayout;   // CardLayout for welcoming user to game.
 
-    TitlePanel titlePanel
+    TitlePanel titlePanel;  // Contains main menu and instructions panels.
+    Timer createGerms;      /
