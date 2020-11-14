@@ -25,4 +25,7 @@ public class Final
     Timer moveGerms;        // Moves germs down on board.
     
     boolean pauseBoolean = false;   // Determines whether to listen to keys or not when paused
-  
+    
+    Font font;      // Font that will be used for welcoming panels.
+    
+    File 
