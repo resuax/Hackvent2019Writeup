@@ -24,4 +24,5 @@ public class Final
     Timer createGerms;      // Places germs on game board.
     Timer moveGerms;        // Moves germs down on board.
     
-    boolean pauseBo
+    boolean pauseBoolean = false;   // Determines whether to listen to keys or not when paused
+  
