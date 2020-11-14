@@ -28,4 +28,8 @@ public class Final
     
     Font font;      // Font that will be used for welcoming panels.
     
-    File 
+    File instructionsFile;
+    Scanner input;
+    String instructionsString;
+    
+    public Final()
