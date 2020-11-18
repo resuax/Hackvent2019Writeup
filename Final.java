@@ -33,3 +33,6 @@ public class Final
     String instructionsString;
     
     public Final()
+    {
+        // Read in text that teaches user how to play.
+        instructionsFil
