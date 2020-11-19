@@ -35,4 +35,7 @@ public class Final
     public Final()
     {
         // Read in text that teaches user how to play.
-        instructionsFil
+        instructionsFile = new File("instructions.txt");
+        try
+        {
+            input = new Scanner(instructionsFile
