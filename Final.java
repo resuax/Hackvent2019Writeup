@@ -38,4 +38,8 @@ public class Final
         instructionsFile = new File("instructions.txt");
         try
         {
-            input = new Scanner(instructionsFile
+            input = new Scanner(instructionsFile);
+        }
+        catch (FileNotFoundException fnfe)
+        {
+            System.err.pri
