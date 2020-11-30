@@ -42,4 +42,7 @@ public class Final
         }
         catch (FileNotFoundException fnfe)
         {
-            System.err.pri
+            System.err.println("ERROR: Cannot open text file");
+            System.exit(1);
+        }
+        while (input.hasN
