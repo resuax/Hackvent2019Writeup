@@ -45,4 +45,7 @@ public class Final
             System.err.println("ERROR: Cannot open text file");
             System.exit(1);
         }
-        while (input.hasN
+        while (input.hasNext())
+        {
+            instructionsString = input.nextLine();
+        }
