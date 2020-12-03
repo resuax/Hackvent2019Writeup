@@ -49,3 +49,10 @@ public class Final
         {
             instructionsString = input.nextLine();
         }
+        input.close();
+
+    }
+    
+    public static void main (String [] args)
+    {
+  
