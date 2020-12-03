@@ -61,4 +61,6 @@ public class Final
 
     public void run()
     {
-        // Init
+        // Initialize JFrame.
+        frame = new JFrame("Final");
+        frame.setDefaultCloseOperation(J
