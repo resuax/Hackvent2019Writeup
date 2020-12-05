@@ -68,4 +68,6 @@ public class Final
         frame.setSize(800, 600);    // 800x600 pixels.
         frame.setLocation(40, 40);  // JFrame appears here on screen.
 
-        titlePanel = new TitleP
+        titlePanel = new TitlePanel();  // Initialize panel for main menu.
+
+        cards = new CardLayout();   // Initialize main CardLay
