@@ -66,4 +66,6 @@ public class Final
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
         frame.setSize(800, 600);    // 800x600 pixels.
-        frame.setL
+        frame.setLocation(40, 40);  // JFrame appears here on screen.
+
+        titlePanel = new TitleP
