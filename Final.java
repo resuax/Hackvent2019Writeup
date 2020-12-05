@@ -70,4 +70,7 @@ public class Final
 
         titlePanel = new TitlePanel();  // Initialize panel for main menu.
 
-        cards = new CardLayout();   // Initialize main CardLay
+        cards = new CardLayout();   // Initialize main CardLayout.
+        frame.setLayout(cards);
+
+        // Add JPanels to f
