@@ -73,4 +73,7 @@ public class Final
         cards = new CardLayout();   // Initialize main CardLayout.
         frame.setLayout(cards);
 
-        // Add JPanels to f
+        // Add JPanels to frame.
+        frame.getContentPane().add(titlePanel, "Title Panel");
+
+        frame.setResizable(
