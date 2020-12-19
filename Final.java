@@ -77,4 +77,10 @@ public class Final
         frame.getContentPane().add(titlePanel, "Title Panel");
 
         frame.setResizable(false);  // JFrame set at 800x600.
-        frame.setVisible(true);     // JFrame is visible on screen
+        frame.setVisible(true);     // JFrame is visible on screen.
+        frame.setFocusable(true);
+    }
+
+    class TitlePanel extends JPanel
+    {
+       
