@@ -84,4 +84,8 @@ public class Final
     class TitlePanel extends JPanel
     {
         CheckerBoard menuPanel, infoPanel, immunePanel;  // Menu screen and instructions.
-   
+        WBCGamePanel wbc;
+
+        public TitlePanel()
+        {
+            // 
