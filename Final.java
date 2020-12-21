@@ -88,4 +88,5 @@ public class Final
 
         public TitlePanel()
         {
-            // 
+            // Initialize CardLayout and set titleMenu to CardLayout.
+            welcomeLayout = new Card
