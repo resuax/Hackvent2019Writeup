@@ -92,4 +92,5 @@ public class Final
             welcomeLayout = new CardLayout();   
             this.setLayout(welcomeLayout);  
 
-            // Initialize
+            // Initialize JPanels and set Layout to 'null'.
+            menuPanel = new CheckerBoard(); 
