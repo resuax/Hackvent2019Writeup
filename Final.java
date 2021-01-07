@@ -93,4 +93,7 @@ public class Final
             this.setLayout(welcomeLayout);  
 
             // Initialize JPanels and set Layout to 'null'.
-            menuPanel = new CheckerBoard(); 
+            menuPanel = new CheckerBoard();     
+            menuPanel.setLayout(null);
+            
+            infoPanel = new CheckerBoa
