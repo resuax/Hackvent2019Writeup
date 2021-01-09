@@ -96,4 +96,7 @@ public class Final
             menuPanel = new CheckerBoard();     
             menuPanel.setLayout(null);
             
-            infoPanel = new CheckerBoa
+            infoPanel = new CheckerBoard();
+            infoPanel.setLayout(null);
+            
+            immunePanel = 
