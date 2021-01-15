@@ -102,4 +102,7 @@ public class Final
             immunePanel = new CheckerBoard();
             immunePanel.setLayout(null);
             
-            wbc = new WBC
+            wbc = new WBCGamePanel();
+            wbc.setLayout(null);
+
+            // Add JPanels to Ca
