@@ -99,4 +99,7 @@ public class Final
             infoPanel = new CheckerBoard();
             infoPanel.setLayout(null);
             
-            immunePanel = 
+            immunePanel = new CheckerBoard();
+            immunePanel.setLayout(null);
+            
+            wbc = new WBC
