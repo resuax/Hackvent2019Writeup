@@ -107,4 +107,6 @@ public class Final
 
             // Add JPanels to CardLayout 'welcomeLayout'.
             this.add(menuPanel, "Main Menu");
-            this.add(in
+            this.add(infoPanel, "Instructions");
+            this.add(immunePanel, "Immune System");
+         
