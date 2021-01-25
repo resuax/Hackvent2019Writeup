@@ -105,4 +105,6 @@ public class Final
             wbc = new WBCGamePanel();
             wbc.setLayout(null);
 
-            // Add JPanels to Ca
+            // Add JPanels to CardLayout 'welcomeLayout'.
+            this.add(menuPanel, "Main Menu");
+            this.add(in
