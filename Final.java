@@ -109,4 +109,8 @@ public class Final
             this.add(menuPanel, "Main Menu");
             this.add(infoPanel, "Instructions");
             this.add(immunePanel, "Immune System");
-         
+            this.add(wbc, "WBC Mini-Game");
+
+            font = new Font("Arial", Font.BOLD, 20);
+            
+ 
