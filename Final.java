@@ -113,4 +113,5 @@ public class Final
 
             font = new Font("Arial", Font.BOLD, 20);
             
- 
+            // Game title JLabels.
+            JLabel anatomyLabel = new JLabel("ANATOMY");
