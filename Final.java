@@ -116,4 +116,5 @@ public class Final
             // Game title JLabels.
             JLabel anatomyLabel = new JLabel("ANATOMY");
             JLabel arcadeLabel = new JLabel("ARCADE");
-            anatomyLabel.setFont(new Fon
+            anatomyLabel.setFont(new Font("Arial", Font.BOLD, 50));
+            arcadeLabel.setFont(new Font("Ari
