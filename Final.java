@@ -115,3 +115,5 @@ public class Final
             
             // Game title JLabels.
             JLabel anatomyLabel = new JLabel("ANATOMY");
+            JLabel arcadeLabel = new JLabel("ARCADE");
+            anatomyLabel.setFont(new Fon
