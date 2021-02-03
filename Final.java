@@ -117,4 +117,6 @@ public class Final
             JLabel anatomyLabel = new JLabel("ANATOMY");
             JLabel arcadeLabel = new JLabel("ARCADE");
             anatomyLabel.setFont(new Font("Arial", Font.BOLD, 50));
-            arcadeLabel.setFont(new Font("Ari
+            arcadeLabel.setFont(new Font("Arial", Font.BOLD, 50));
+            anatomyLabel.setForeground(Color.white);
+            a
