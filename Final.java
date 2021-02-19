@@ -119,4 +119,5 @@ public class Final
             anatomyLabel.setFont(new Font("Arial", Font.BOLD, 50));
             arcadeLabel.setFont(new Font("Arial", Font.BOLD, 50));
             anatomyLabel.setForeground(Color.white);
-            a
+            arcadeLabel.setForeground(Color.white);
+            anatomyLabel.setBounds(275,
