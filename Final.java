@@ -120,4 +120,6 @@ public class Final
             arcadeLabel.setFont(new Font("Arial", Font.BOLD, 50));
             anatomyLabel.setForeground(Color.white);
             arcadeLabel.setForeground(Color.white);
-            anatomyLabel.setBounds(275,
+            anatomyLabel.setBounds(275, 35, 270, 50);
+            arcadeLabel.setBounds(295, 60, 220, 105);
+            menuPanel.
