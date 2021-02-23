@@ -122,4 +122,6 @@ public class Final
             arcadeLabel.setForeground(Color.white);
             anatomyLabel.setBounds(275, 35, 270, 50);
             arcadeLabel.setBounds(295, 60, 220, 105);
-            menuPanel.
+            menuPanel.add(anatomyLabel);
+            menuPanel.add(arcadeLabel);
+            
