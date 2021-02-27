@@ -125,3 +125,5 @@ public class Final
             menuPanel.add(anatomyLabel);
             menuPanel.add(arcadeLabel);
             
+            // Goes to panel where user plays the game.
+            JButton play
