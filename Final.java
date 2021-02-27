@@ -126,4 +126,6 @@ public class Final
             menuPanel.add(arcadeLabel);
             
             // Goes to panel where user plays the game.
-            JButton play
+            JButton playButton = new JButton("Play!");
+            playButton.setFont(font);
+            playBut
