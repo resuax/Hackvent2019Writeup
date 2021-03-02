@@ -128,4 +128,5 @@ public class Final
             // Goes to panel where user plays the game.
             JButton playButton = new JButton("Play!");
             playButton.setFont(font);
-            playBut
+            playButton.addActionListener(new ButtonPlayListener());
+            playButton.setBounds(305, 180
