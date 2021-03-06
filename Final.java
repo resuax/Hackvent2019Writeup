@@ -129,4 +129,7 @@ public class Final
             JButton playButton = new JButton("Play!");
             playButton.setFont(font);
             playButton.addActionListener(new ButtonPlayListener());
-            playButton.setBounds(305, 180
+            playButton.setBounds(305, 180, 188, 60);
+            menuPanel.add(playButton);
+            
+            // Goes to panel 
