@@ -132,4 +132,6 @@ public class Final
             playButton.setBounds(305, 180, 188, 60);
             menuPanel.add(playButton);
             
-            // Goes to panel 
+            // Goes to panel on how to play.
+            JButton infoButton = new JButton("How to Play!");
+            in
