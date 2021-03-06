@@ -134,4 +134,5 @@ public class Final
             
             // Goes to panel on how to play.
             JButton infoButton = new JButton("How to Play!");
-            in
+            infoButton.setFont(font);
+            infoButton.addActionListener(new ButtonI
