@@ -137,4 +137,6 @@ public class Final
             infoButton.setFont(font);
             infoButton.addActionListener(new ButtonInfoListener());
             infoButton.setBounds(305, 260, 188, 60);
-           
+            menuPanel.add(infoButton);
+            
+            // Returns to Main Menu panel fro
