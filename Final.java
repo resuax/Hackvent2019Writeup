@@ -139,4 +139,5 @@ public class Final
             infoButton.setBounds(305, 260, 188, 60);
             menuPanel.add(infoButton);
             
-            // Returns to Main Menu panel fro
+            // Returns to Main Menu panel from Info panel.
+            JButton infoReturnButton = new JButton("Return to Main M
