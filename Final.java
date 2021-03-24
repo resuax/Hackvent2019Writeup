@@ -142,4 +142,5 @@ public class Final
             // Returns to Main Menu panel from Info panel.
             JButton infoReturnButton = new JButton("Return to Main Menu");
             infoReturnButton.setFont(font);
-            infoReturnB
+            infoReturnButton.addActionListener(new ButtonMainListener());
+            infoReturnButton.setBou
