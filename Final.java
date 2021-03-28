@@ -146,4 +146,6 @@ public class Final
             infoReturnButton.setBounds(0, 0, 800, 30);
             infoPanel.add(infoReturnButton);
 
-            JTextAre
+            JTextArea helpTextArea = new JTextArea(instructionsString);
+            helpTextArea.setEditable(false);
+            helpT
