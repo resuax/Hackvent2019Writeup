@@ -143,4 +143,7 @@ public class Final
             JButton infoReturnButton = new JButton("Return to Main Menu");
             infoReturnButton.setFont(font);
             infoReturnButton.addActionListener(new ButtonMainListener());
-            infoReturnButton.setBou
+            infoReturnButton.setBounds(0, 0, 800, 30);
+            infoPanel.add(infoReturnButton);
+
+            JTextAre
