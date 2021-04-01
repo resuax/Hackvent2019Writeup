@@ -153,3 +153,6 @@ public class Final
             helpTextArea.setFont(new Font("Arial", Font.BOLD, 20));
             helpTextArea.setForeground(Color.white);    // Red default.
             helpTextArea.setOpaque(false);
+            helpTextArea.setBounds(200, 35, 600, 75);
+            infoPanel.add(helpTextArea);
+    
