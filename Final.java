@@ -158,4 +158,6 @@ public class Final
             
             // Goes to panel about the Immune System
             JButton immuneSystemButton = new JButton("Immune System!");
-            immuneSystemButton.setFont(new Font("Arial", Fon
+            immuneSystemButton.setFont(new Font("Arial", Font.BOLD, 18));
+            immuneSystemButton.addActionListener(new ButtonImmuneListener());
+   
