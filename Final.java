@@ -155,4 +155,6 @@ public class Final
             helpTextArea.setOpaque(false);
             helpTextArea.setBounds(200, 35, 600, 75);
             infoPanel.add(helpTextArea);
-    
+            
+            // Goes to panel about the Immune System
+            JButton immuneSystemButton = new
