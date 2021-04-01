@@ -150,4 +150,5 @@ public class Final
             helpTextArea.setEditable(false);
             helpTextArea.setLineWrap(true);
             helpTextArea.setWrapStyleWord(true);
-          
+            helpTextArea.setFont(new Font("Arial", Font.BOLD, 20));
+            help
