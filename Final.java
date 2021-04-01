@@ -151,4 +151,5 @@ public class Final
             helpTextArea.setLineWrap(true);
             helpTextArea.setWrapStyleWord(true);
             helpTextArea.setFont(new Font("Arial", Font.BOLD, 20));
-            help
+            helpTextArea.setForeground(Color.white);    // Red default.
+            helpTextArea.setOpaque(false);
