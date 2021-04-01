@@ -157,4 +157,5 @@ public class Final
             infoPanel.add(helpTextArea);
             
             // Goes to panel about the Immune System
-            JButton immuneSystemButton = new
+            JButton immuneSystemButton = new JButton("Immune System!");
+            immuneSystemButton.setFont(new Font("Arial", Fon
