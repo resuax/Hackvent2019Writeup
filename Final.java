@@ -148,4 +148,6 @@ public class Final
 
             JTextArea helpTextArea = new JTextArea(instructionsString);
             helpTextArea.setEditable(false);
-            helpT
+            helpTextArea.setLineWrap(true);
+            helpTextArea.setWrapStyleWord(true);
+          
