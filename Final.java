@@ -161,4 +161,6 @@ public class Final
             immuneSystemButton.setFont(new Font("Arial", Font.BOLD, 18));
             immuneSystemButton.addActionListener(new ButtonImmuneListener());
             immuneSystemButton.setBounds(305, 340, 188, 60);
-            menuPa
+            menuPanel.add(immuneSystemButton);
+            
+            // Returns to Main Menu panel 
