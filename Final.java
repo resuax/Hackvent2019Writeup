@@ -166,4 +166,5 @@ public class Final
             // Returns to Main Menu panel from Immune System Panel.
             JButton immuneReturnButton = new JButton("Return to Main Menu");
             immuneReturnButton.setFont(font);
-            immuneReturnButton.addActionLi
+            immuneReturnButton.addActionListener(new ButtonMainListener());
+            immuneReturnButton.setBounds(0, 0, 800, 30
