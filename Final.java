@@ -167,4 +167,8 @@ public class Final
             JButton immuneReturnButton = new JButton("Return to Main Menu");
             immuneReturnButton.setFont(font);
             immuneReturnButton.addActionListener(new ButtonMainListener());
-            immuneReturnButton.setBounds(0, 0, 800, 30
+            immuneReturnButton.setBounds(0, 0, 800, 30);
+            immunePanel.add(immuneReturnButton);
+
+            // Closes the game when clicked.
+  
