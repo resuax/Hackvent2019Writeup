@@ -171,4 +171,6 @@ public class Final
             immunePanel.add(immuneReturnButton);
 
             // Closes the game when clicked.
-  
+            JButton quitButton = new JButton("Exit!");
+            quitButton.setFont(font);
+ 
