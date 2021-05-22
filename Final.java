@@ -173,4 +173,5 @@ public class Final
             // Closes the game when clicked.
             JButton quitButton = new JButton("Exit!");
             quitButton.setFont(font);
- 
+            quitButton.addActionListener(new ButtonQuitListener());
+            quitButto
