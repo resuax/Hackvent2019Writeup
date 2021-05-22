@@ -174,4 +174,9 @@ public class Final
             JButton quitButton = new JButton("Exit!");
             quitButton.setFont(font);
             quitButton.addActionListener(new ButtonQuitListener());
-            quitButto
+            quitButton.setBounds(305, 420, 188, 60);
+            menuPanel.add(quitButton);
+        }
+    }
+
+    cl
