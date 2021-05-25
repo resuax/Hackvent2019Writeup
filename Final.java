@@ -183,4 +183,5 @@ public class Final
     {       
         int ii, jj;         // Used in 'for loop' to draw checkerboard.
         int x, y;           // Coordinates to draw checkerboard.
-        int colorC
+        int colorCounter;   // Determines which color to use for checkerboard.
+        Color red, myRed;   // Colors use
