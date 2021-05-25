@@ -179,4 +179,6 @@ public class Final
         }
     }
 
-    cl
+    class CheckerBoard extends JPanel
+    {       
+        int ii, jj;         // Used in 'for loop' to dra
