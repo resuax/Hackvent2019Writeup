@@ -181,4 +181,6 @@ public class Final
 
     class CheckerBoard extends JPanel
     {       
-        int ii, jj;         // Used in 'for loop' to dra
+        int ii, jj;         // Used in 'for loop' to draw checkerboard.
+        int x, y;           // Coordinates to draw checkerboard.
+        int colorC
