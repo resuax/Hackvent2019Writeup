@@ -186,4 +186,8 @@ public class Final
         int colorCounter;   // Determines which color to use for checkerboard.
         Color red, myRed;   // Colors used to draw checkerboard.
 
-        // Animates the checkerboard design (alternates color
+        // Animates the checkerboard design (alternates colors).
+        Animate animate;    
+        Timer checkerboardTimer;
+
+        private class Animate i
