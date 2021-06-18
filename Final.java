@@ -190,4 +190,6 @@ public class Final
         Animate animate;    
         Timer checkerboardTimer;
 
-        private class Animate i
+        private class Animate implements ActionListener  // Animates checkerboard.
+        {
+            public void actionPer
