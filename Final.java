@@ -194,4 +194,6 @@ public class Final
         {
             public void actionPerformed(ActionEvent e)
             {   
-                // Switch colors depending on '
+                // Switch colors depending on 'colorCounter' value.
+                if (colorCounter % 2 == 0)
+           
