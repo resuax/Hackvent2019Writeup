@@ -192,4 +192,6 @@ public class Final
 
         private class Animate implements ActionListener  // Animates checkerboard.
         {
-            public void actionPer
+            public void actionPerformed(ActionEvent e)
+            {   
+                // Switch colors depending on '
