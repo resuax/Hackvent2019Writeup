@@ -196,4 +196,7 @@ public class Final
             {   
                 // Switch colors depending on 'colorCounter' value.
                 if (colorCounter % 2 == 0)
-           
+                {
+                    red = Color.red;
+                    myRed = red.darker();
+     
