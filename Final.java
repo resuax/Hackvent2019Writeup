@@ -205,4 +205,8 @@ public class Final
                     myRed = Color.red;
                     red = myRed.darker();
                 }
-                // Increment and repai
+                // Increment and repaint checkerboard.
+                colorCounter++;
+                repaint();
+            }
+    
