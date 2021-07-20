@@ -202,4 +202,7 @@ public class Final
                 }
                 else
                 {
-                    myRed = Col
+                    myRed = Color.red;
+                    red = myRed.darker();
+                }
+                // Increment and repai
