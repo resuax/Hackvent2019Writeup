@@ -199,4 +199,7 @@ public class Final
                 {
                     red = Color.red;
                     myRed = red.darker();
-     
+                }
+                else
+                {
+                    myRed = Col
