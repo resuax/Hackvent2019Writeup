@@ -214,4 +214,6 @@ public class Final
         public CheckerBoard()
         {
             colorCounter = 0;   
-            // Initialize
+            // Initialize and start animation of checkerboard.
+            animate = new Animate();
+            checker
