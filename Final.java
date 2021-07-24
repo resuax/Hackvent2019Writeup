@@ -209,4 +209,9 @@ public class Final
                 colorCounter++;
                 repaint();
             }
-    
+        }
+
+        public CheckerBoard()
+        {
+            colorCounter = 0;   
+            // Initialize
