@@ -216,4 +216,8 @@ public class Final
             colorCounter = 0;   
             // Initialize and start animation of checkerboard.
             animate = new Animate();
-            checker
+            checkerboardTimer = new Timer(500, animate);
+            checkerboardTimer.start();
+        }
+
+        p
