@@ -226,4 +226,6 @@ public class Final
             // Draw checkerboard pattern.
             for (ii = 0; ii < 8; ii++)
             {
-   
+                for (jj = 0; jj < 8; jj++)
+                {
+                    x = ii * 100;   // C
