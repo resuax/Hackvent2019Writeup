@@ -220,4 +220,7 @@ public class Final
             checkerboardTimer.start();
         }
 
-        p
+        public void paintComponent(Graphics g)
+        {
+            super.paintComponent(g);
+          
