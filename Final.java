@@ -223,4 +223,7 @@ public class Final
         public void paintComponent(Graphics g)
         {
             super.paintComponent(g);
-          
+            // Draw checkerboard pattern.
+            for (ii = 0; ii < 8; ii++)
+            {
+   
