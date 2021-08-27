@@ -232,4 +232,8 @@ public class Final
                     y = jj * 73;    // Convert yCord to pixels.
 
                     // Set the colors of the checkerboard.
-               
+                    if ((ii % 2) == (jj % 2))
+                    {
+                        g.setColor(myRed);
+                    }
+  
