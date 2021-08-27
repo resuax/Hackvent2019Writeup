@@ -229,4 +229,7 @@ public class Final
                 for (jj = 0; jj < 8; jj++)
                 {
                     x = ii * 100;   // Convert xCord to pixels.
-                    y = jj * 73;    // Convert yCord to
+                    y = jj * 73;    // Convert yCord to pixels.
+
+                    // Set the colors of the checkerboard.
+               
