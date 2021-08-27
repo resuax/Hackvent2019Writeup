@@ -228,4 +228,5 @@ public class Final
             {
                 for (jj = 0; jj < 8; jj++)
                 {
-                    x = ii * 100;   // C
+                    x = ii * 100;   // Convert xCord to pixels.
+                    y = jj * 73;    // Convert yCord to
