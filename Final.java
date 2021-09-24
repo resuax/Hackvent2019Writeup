@@ -236,4 +236,7 @@ public class Final
                     {
                         g.setColor(myRed);
                     }
-  
+                    else
+                    {
+                        g.setColor(red);
+   
