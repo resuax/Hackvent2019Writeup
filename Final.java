@@ -239,4 +239,5 @@ public class Final
                     else
                     {
                         g.setColor(red);
-   
+                    }
+                    g.fillRect(x, y, 100, 73);  // Draw rect
