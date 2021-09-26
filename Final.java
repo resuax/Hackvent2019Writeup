@@ -240,4 +240,7 @@ public class Final
                     {
                         g.setColor(red);
                     }
-                    g.fillRect(x, y, 100, 73);  // Draw rect
+                    g.fillRect(x, y, 100, 73);  // Draw rectangle.
+                }
+            }
+            ii = jj = 0;    // Reset values so 
