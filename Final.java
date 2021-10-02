@@ -243,4 +243,8 @@ public class Final
                     g.fillRect(x, y, 100, 73);  // Draw rectangle.
                 }
             }
-            ii = jj = 0;    // Reset values so 
+            ii = jj = 0;    // Reset values so 'for loop' can rerun.
+        }
+    }
+
+    class WBCGamePanel extends JPanel implements KeyListe
