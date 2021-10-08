@@ -247,4 +247,7 @@ public class Final
         }
     }
 
-    class WBCGamePanel extends JPanel implements KeyListe
+    class WBCGamePanel extends JPanel implements KeyListener
+    {
+        ArrayList<GameObject> objectCells;
+        ArrayList<GameObject> objectO
