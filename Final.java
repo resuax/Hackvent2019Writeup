@@ -250,4 +250,6 @@ public class Final
     class WBCGamePanel extends JPanel implements KeyListener
     {
         ArrayList<GameObject> objectCells;
-        ArrayList<GameObject> objectO
+        ArrayList<GameObject> objectOrangeGerms;
+        ArrayList<GameObject> objectPurpleGerms;
+        ArrayList<Game
