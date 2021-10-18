@@ -254,4 +254,6 @@ public class Final
         ArrayList<GameObject> objectPurpleGerms;
         ArrayList<GameObject> objectBlackGerms;
         ArrayList<GameObject> objectBullets;
-        ArrayL
+        ArrayList<GameObject> objectExplosion;
+        
+        // Images for blood cell sprite sheets and instance
