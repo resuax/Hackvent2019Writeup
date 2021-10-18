@@ -252,4 +252,6 @@ public class Final
         ArrayList<GameObject> objectCells;
         ArrayList<GameObject> objectOrangeGerms;
         ArrayList<GameObject> objectPurpleGerms;
-        ArrayList<Game
+        ArrayList<GameObject> objectBlackGerms;
+        ArrayList<GameObject> objectBullets;
+        ArrayL
