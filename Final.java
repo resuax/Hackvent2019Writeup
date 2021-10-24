@@ -258,4 +258,6 @@ public class Final
         
         // Images for blood cell sprite sheets and instances of cell
         BufferedImage cellSprite, drawing;
-        // Images for germ sprite sheets and different 
+        // Images for germ sprite sheets and different colored germs.
+        BufferedImage germSprite, orangeGerm, blackGerm, purpleGerm;
+    
