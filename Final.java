@@ -260,4 +260,6 @@ public class Final
         BufferedImage cellSprite, drawing;
         // Images for germ sprite sheets and different colored germs.
         BufferedImage germSprite, orangeGerm, blackGerm, purpleGerm;
-    
+        // Instances of the germs.
+        BufferedImage purpleDrawing, orangeDrawing, blackDrawing;
+        /
