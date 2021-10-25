@@ -262,4 +262,6 @@ public class Final
         BufferedImage germSprite, orangeGerm, blackGerm, purpleGerm;
         // Instances of the germs.
         BufferedImage purpleDrawing, orangeDrawing, blackDrawing;
-        /
+        // Germ that will be drawn.
+        BufferedImage germToBeDrawn;
+        // Images 
