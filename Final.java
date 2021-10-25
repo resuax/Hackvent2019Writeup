@@ -264,4 +264,5 @@ public class Final
         BufferedImage purpleDrawing, orangeDrawing, blackDrawing;
         // Germ that will be drawn.
         BufferedImage germToBeDrawn;
-        // Images 
+        // Images of explosion sprite sheet and instances of cell.
+        BufferedImage explosionSprite, kaboom, explosionD
