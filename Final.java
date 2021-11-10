@@ -265,4 +265,5 @@ public class Final
         // Germ that will be drawn.
         BufferedImage germToBeDrawn;
         // Images of explosion sprite sheet and instances of cell.
-        BufferedImage explosionSprite, kaboom, explosionD
+        BufferedImage explosionSprite, kaboom, explosionDrawing;
+        // Images of bullet sprite sheet and instances of bullet.                       
