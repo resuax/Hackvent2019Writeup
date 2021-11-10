@@ -267,4 +267,8 @@ public class Final
         // Images of explosion sprite sheet and instances of cell.
         BufferedImage explosionSprite, kaboom, explosionDrawing;
         // Images of bullet sprite sheet and instances of bullet.                              
-        BufferedImage bulletSprite, ammo, ammo2, ammo3, ammo4, bulletDrawing
+        BufferedImage bulletSprite, ammo, ammo2, ammo3, ammo4, bulletDrawing;
+        // Image for background
+        BufferedImage backgroundSprite; 
+
+        // Animates the wh
