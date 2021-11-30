@@ -271,4 +271,6 @@ public class Final
         // Image for background
         BufferedImage backgroundSprite; 
 
-        // Animates the wh
+        // Animates the white blood cells, germs, and background.
+        SpriteAnimation sa;
+        Timer general
