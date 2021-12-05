@@ -273,4 +273,7 @@ public class Final
 
         // Animates the white blood cells, germs, and background.
         SpriteAnimation sa;
-        Timer general
+        Timer generalAnimations; 
+
+        CreateGerms cg; // Creates and places germs on board.
+        MoveGe
