@@ -276,4 +276,7 @@ public class Final
         Timer generalAnimations; 
 
         CreateGerms cg; // Creates and places germs on board.
-        MoveGe
+        MoveGerms mg;   // Moves germs down on board.
+
+        // Animates  explosion.
+        Explo
