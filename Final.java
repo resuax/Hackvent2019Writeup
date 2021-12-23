@@ -279,4 +279,7 @@ public class Final
         MoveGerms mg;   // Moves germs down on board.
 
         // Animates  explosion.
-        Explo
+        ExplosionAnimation ea;  
+        Timer explosionTimer;
+
+        int counter
