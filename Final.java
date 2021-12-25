@@ -283,4 +283,6 @@ public class Final
         Timer explosionTimer;
 
         int counter;        // Determines which subimage to draw
-        int xStart, yStart, backgroundHeig
+        int xStart, yStart, backgroundHeight, backgroundWidth; // Where to draw background.
+
+        // Used to position the cell on the g
