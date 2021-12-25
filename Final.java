@@ -285,4 +285,7 @@ public class Final
         int counter;        // Determines which subimage to draw
         int xStart, yStart, backgroundHeight, backgroundWidth; // Where to draw background.
 
-        // Used to position the cell on the g
+        // Used to position the cell on the game board.
+        ArrayList<Point> cells;
+        Point cellPoint;
+        int cellPixelX, ce
