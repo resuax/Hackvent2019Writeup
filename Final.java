@@ -296,4 +296,6 @@ public class Final
         int germPixelX, germPixelY;
 
         // Used to place bullets on game board.
-        ArrayList<GameObject> bu
+        ArrayList<GameObject> bullets;
+        int whenToDrawBullets; // Bullets only get drawn when spacebar is pressed.
+	int
