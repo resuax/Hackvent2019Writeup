@@ -282,4 +282,5 @@ public class Final
         ExplosionAnimation ea;  
         Timer explosionTimer;
 
-        int counter
+        int counter;        // Determines which subimage to draw
+        int xStart, yStart, backgroundHeig
