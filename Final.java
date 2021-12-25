@@ -291,4 +291,6 @@ public class Final
         int cellPixelX, cellPixelY;
 
         // Used to place and position germs on game board.
-        
+        ArrayList<Point> germs;
+        Point germPoint;
+        int germPixelX, germPixel
