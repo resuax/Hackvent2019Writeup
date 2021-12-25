@@ -288,4 +288,7 @@ public class Final
         // Used to position the cell on the game board.
         ArrayList<Point> cells;
         Point cellPoint;
-        int cellPixelX, ce
+        int cellPixelX, cellPixelY;
+
+        // Used to place and position germs on game board.
+        
