@@ -293,4 +293,7 @@ public class Final
         // Used to place and position germs on game board.
         ArrayList<Point> germs;
         Point germPoint;
-        int germPixelX, germPixel
+        int germPixelX, germPixelY;
+
+        // Used to place bullets on game board.
+        ArrayList<GameObject> bu
