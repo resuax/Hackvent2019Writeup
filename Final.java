@@ -298,4 +298,7 @@ public class Final
         // Used to place bullets on game board.
         ArrayList<GameObject> bullets;
         int whenToDrawBullets; // Bullets only get drawn when spacebar is pressed.
-	int
+	int bulletWidth = 45;
+	int bulletHeight = 60;
+
+        int timeToDrawCounter;  // Det
