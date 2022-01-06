@@ -301,4 +301,5 @@ public class Final
 	int bulletWidth = 45;
 	int bulletHeight = 60;
 
-        int timeToDrawCounter;  // Det
+        int timeToDrawCounter;  // Determines how long germs should spawn.
+        int explosionCounter;   // Determines which exp
