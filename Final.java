@@ -303,4 +303,6 @@ public class Final
 
         int timeToDrawCounter;  // Determines how long germs should spawn.
         int explosionCounter;   // Determines which explosion subimage should be drawn.
-        int pauseCounter; // Determines if timers should b
+        int pauseCounter; // Determines if timers should be started or stopped when 'p' is pressed.
+
+        JButton howToPlayButton, 
