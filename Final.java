@@ -308,4 +308,5 @@ public class Final
         JButton howToPlayButton, immunePauseButton, quitPauseButton;
         JLabel pauseMessage;
 
-        // C
+        // Class which animates white blood cells, germs, and backgrounds.
+        private class SpriteAn
