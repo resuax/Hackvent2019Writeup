@@ -305,4 +305,7 @@ public class Final
         int explosionCounter;   // Determines which explosion subimage should be drawn.
         int pauseCounter; // Determines if timers should be started or stopped when 'p' is pressed.
 
-        JButton howToPlayButton, 
+        JButton howToPlayButton, immunePauseButton, quitPauseButton;
+        JLabel pauseMessage;
+
+        // C
