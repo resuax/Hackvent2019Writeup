@@ -302,4 +302,5 @@ public class Final
 	int bulletHeight = 60;
 
         int timeToDrawCounter;  // Determines how long germs should spawn.
-        int explosionCounter;   // Determines which exp
+        int explosionCounter;   // Determines which explosion subimage should be drawn.
+        int pauseCounter; // Determines if timers should b
