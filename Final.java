@@ -311,4 +311,8 @@ public class Final
         // Class which animates white blood cells, germs, and backgrounds.
         private class SpriteAnimation implements ActionListener
         {
-            public void
+            public void actionPerformed (ActionEvent e)
+            {
+                if (counter > 4)
+                {
+   
