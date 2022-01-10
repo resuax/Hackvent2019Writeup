@@ -315,4 +315,6 @@ public class Final
             {
                 if (counter > 4)
                 {
-   
+                    counter = 1;
+                }
+                drawing = objectCel
