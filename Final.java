@@ -309,4 +309,6 @@ public class Final
         JLabel pauseMessage;
 
         // Class which animates white blood cells, germs, and backgrounds.
-        private class SpriteAn
+        private class SpriteAnimation implements ActionListener
+        {
+            public void
