@@ -318,4 +318,6 @@ public class Final
                     counter = 1;
                 }
                 drawing = objectCells.get(counter-1).getDrawing();
-                orangeDrawing = objectOrangeGerms.get(counter-1
+                orangeDrawing = objectOrangeGerms.get(counter-1).getDrawing();
+                purpleDrawing = objectPurpleGerms.get(counter-1).getDrawing();
+      
