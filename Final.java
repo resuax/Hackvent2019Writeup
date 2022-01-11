@@ -317,4 +317,5 @@ public class Final
                 {
                     counter = 1;
                 }
-                drawing = objectCel
+                drawing = objectCells.get(counter-1).getDrawing();
+                orangeDrawing = objectOrangeGerms.get(counter-1
