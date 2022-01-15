@@ -321,4 +321,5 @@ public class Final
                 orangeDrawing = objectOrangeGerms.get(counter-1).getDrawing();
                 purpleDrawing = objectPurpleGerms.get(counter-1).getDrawing();
                 blackDrawing = objectBlackGerms.get(counter-1).getDrawing();
-                bulletDr
+                bulletDrawing = objectBullets.get(counter-1).getDrawing();
+                backgroundHeight = backgroundW
