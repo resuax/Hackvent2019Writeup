@@ -326,3 +326,7 @@ public class Final
                 counter++;
                 repaint();
             }
+        }
+
+        // Class which creates and places germs on game board.
+        pri
