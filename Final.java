@@ -322,4 +322,7 @@ public class Final
                 purpleDrawing = objectPurpleGerms.get(counter-1).getDrawing();
                 blackDrawing = objectBlackGerms.get(counter-1).getDrawing();
                 bulletDrawing = objectBullets.get(counter-1).getDrawing();
-                backgroundHeight = backgroundW
+                backgroundHeight = backgroundWidth = (counter * 100) + 800;
+                counter++;
+                repaint();
+            }
