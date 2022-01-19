@@ -333,4 +333,7 @@ public class Final
         {
             public void actionPerformed (ActionEvent ae)
             {   
-                generateEnemies(); // Create 
+                generateEnemies(); // Create germs.
+
+                // Stop generating germs after some time.
+               
