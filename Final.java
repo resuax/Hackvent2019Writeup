@@ -331,4 +331,6 @@ public class Final
         // Class which creates and places germs on game board.
         private class CreateGerms implements ActionListener
         {
-            public void ac
+            public void actionPerformed (ActionEvent ae)
+            {   
+                generateEnemies(); // Create 
