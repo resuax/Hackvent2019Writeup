@@ -329,4 +329,6 @@ public class Final
         }
 
         // Class which creates and places germs on game board.
-        pri
+        private class CreateGerms implements ActionListener
+        {
+            public void ac
