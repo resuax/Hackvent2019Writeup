@@ -336,4 +336,6 @@ public class Final
                 generateEnemies(); // Create germs.
 
                 // Stop generating germs after some time.
-               
+                if (timeToDrawCounter == 19)    // Make 20 germs.
+                {
+                    cre
