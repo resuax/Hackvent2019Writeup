@@ -347,4 +347,7 @@ public class Final
 
         // Class which moves the germs one down.
         private class MoveGerms implements ActionListener
-    
+        {
+            public void actionPerformed(ActionEvent ae)
+            {
+      
