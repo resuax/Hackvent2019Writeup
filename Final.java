@@ -345,4 +345,6 @@ public class Final
             }
         }
 
-        // Class which
+        // Class which moves the germs one down.
+        private class MoveGerms implements ActionListener
+    
