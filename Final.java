@@ -340,4 +340,9 @@ public class Final
                 {
                     createGerms.stop(); // Stop after 20th germ.
                 }
-                timeToDrawCounte
+                timeToDrawCounter++;
+                repaint();
+            }
+        }
+
+        // Class which
