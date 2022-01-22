@@ -338,4 +338,6 @@ public class Final
                 // Stop generating germs after some time.
                 if (timeToDrawCounter == 19)    // Make 20 germs.
                 {
-                    cre
+                    createGerms.stop(); // Stop after 20th germ.
+                }
+                timeToDrawCounte
