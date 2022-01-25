@@ -350,4 +350,7 @@ public class Final
         {
             public void actionPerformed(ActionEvent ae)
             {
-      
+                for (Point germPoint : germs)
+                {
+                    germPoint.y += 1;
+         
