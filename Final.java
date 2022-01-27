@@ -353,4 +353,9 @@ public class Final
                 for (Point germPoint : germs)
                 {
                     germPoint.y += 1;
-         
+                    repaint();
+                }
+            }
+        }
+
+        // Class which a
