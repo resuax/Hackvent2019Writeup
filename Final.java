@@ -358,4 +358,7 @@ public class Final
             }
         }
 
-        // Class which a
+        // Class which animates the explosion.
+        private class ExplosionAnimation implements ActionListener
+        {
+ 
