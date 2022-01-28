@@ -363,4 +363,8 @@ public class Final
         {
             public void actionPerformed (ActionEvent ae)
             {
-                if (explosionCou
+                if (explosionCounter > 13)
+                {
+                    explosionCounter = 1;
+                }
+ 
