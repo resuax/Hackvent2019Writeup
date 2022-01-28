@@ -361,4 +361,6 @@ public class Final
         // Class which animates the explosion.
         private class ExplosionAnimation implements ActionListener
         {
- 
+            public void actionPerformed (ActionEvent ae)
+            {
+                if (explosionCou
