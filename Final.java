@@ -367,4 +367,4 @@ public class Final
                 {
                     explosionCounter = 1;
                 }
- 
+                explosionDrawing = objectExplosion.get(explosionCounter-1).getDrawing(
