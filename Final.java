@@ -373,4 +373,6 @@ public class Final
             }
         }
 
-    
+        public WBCGamePanel()
+        {   
+            frame.addKeyListener(this);
