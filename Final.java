@@ -376,3 +376,6 @@ public class Final
         public WBCGamePanel()
         {   
             frame.addKeyListener(this);
+            
+            // Components that appear when game is paused.
+      
