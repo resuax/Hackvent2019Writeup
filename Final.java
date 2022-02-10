@@ -378,4 +378,5 @@ public class Final
             frame.addKeyListener(this);
             
             // Components that appear when game is paused.
-      
+            howToPlayButton = new JButton("How to Play!");
+            immunePauseButto
