@@ -383,4 +383,5 @@ public class Final
             quitPauseButton = new JButton("Quit!");
             pauseMessage = new JLabel("GAME PAUSED - 'P' TO RESUME");
 
-            // Crea
+            // Creates random location of cell and adds to arraylist. 
+            cells = new ArrayList
