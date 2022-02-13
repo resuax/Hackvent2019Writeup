@@ -381,4 +381,6 @@ public class Final
             howToPlayButton = new JButton("How to Play!");
             immunePauseButton = new JButton("Immune System!");
             quitPauseButton = new JButton("Quit!");
-  
+            pauseMessage = new JLabel("GAME PAUSED - 'P' TO RESUME");
+
+            // Crea
