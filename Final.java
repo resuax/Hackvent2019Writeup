@@ -379,4 +379,6 @@ public class Final
             
             // Components that appear when game is paused.
             howToPlayButton = new JButton("How to Play!");
-            immunePauseButto
+            immunePauseButton = new JButton("Immune System!");
+            quitPauseButton = new JButton("Quit!");
+  
