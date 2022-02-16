@@ -384,4 +384,7 @@ public class Final
             pauseMessage = new JLabel("GAME PAUSED - 'P' TO RESUME");
 
             // Creates random location of cell and adds to arraylist. 
-            cells = new ArrayList
+            cells = new ArrayList<Point>();
+            cellPoint = randomPointCell();
+            cells.add(cellPoint);
+ 
