@@ -390,4 +390,6 @@ public class Final
             
             objectCells = new ArrayList<GameObject>();
             objectOrangeGerms = new ArrayList<GameObject>();
-            objectPurpleGerms = new ArrayList<GameObjec
+            objectPurpleGerms = new ArrayList<GameObject>();
+            objectBlackGerms = new ArrayList<GameObject>();
+            objectBulle
