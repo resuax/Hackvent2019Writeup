@@ -387,4 +387,6 @@ public class Final
             cells = new ArrayList<Point>();
             cellPoint = randomPointCell();
             cells.add(cellPoint);
- 
+            
+            objectCells = new ArrayList<GameObject>();
+            objectOrangeGerms = new
