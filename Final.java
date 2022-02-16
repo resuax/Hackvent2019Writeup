@@ -389,4 +389,5 @@ public class Final
             cells.add(cellPoint);
             
             objectCells = new ArrayList<GameObject>();
-            objectOrangeGerms = new
+            objectOrangeGerms = new ArrayList<GameObject>();
+            objectPurpleGerms = new ArrayList<GameObjec
