@@ -392,4 +392,6 @@ public class Final
             objectOrangeGerms = new ArrayList<GameObject>();
             objectPurpleGerms = new ArrayList<GameObject>();
             objectBlackGerms = new ArrayList<GameObject>();
-            objectBulle
+            objectBullets = new ArrayList<GameObject>();
+            objectExplosion = new ArrayList<GameObject>();
+
