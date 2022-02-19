@@ -395,3 +395,5 @@ public class Final
             objectBullets = new ArrayList<GameObject>();
             objectExplosion = new ArrayList<GameObject>();
 
+            germs = new ArrayList<Point>();    // Contains the germ locations.
+         
