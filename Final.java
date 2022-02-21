@@ -397,4 +397,6 @@ public class Final
 
             germs = new ArrayList<Point>();    // Contains the germ locations.
             bullets = new ArrayList<GameObject>(); // Contains bullets.
-            whenToDrawBullets = 0;  // D
+            whenToDrawBullets = 0;  // Draw bullet after values set.
+
+            backgroundWidth = backgroundHeight
