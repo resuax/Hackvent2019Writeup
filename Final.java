@@ -399,4 +399,7 @@ public class Final
             bullets = new ArrayList<GameObject>(); // Contains bullets.
             whenToDrawBullets = 0;  // Draw bullet after values set.
 
-            backgroundWidth = backgroundHeight
+            backgroundWidth = backgroundHeight = 800;      // Used to draw background.
+
+            try  // Try to read in sprite sheets.
+            {
