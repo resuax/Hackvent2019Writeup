@@ -403,3 +403,5 @@ public class Final
 
             try  // Try to read in sprite sheets.
             {
+                cellSprite = ImageIO.read(new File("wbloodcells.png"));
+  
