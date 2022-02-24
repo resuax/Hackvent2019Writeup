@@ -407,4 +407,6 @@ public class Final
                 backgroundSprite = ImageIO.read(new File("redpixel.jpg"));
                 germSprite = ImageIO.read(new File("germs.gif"));
                 explosionSprite = ImageIO.read(new File("explosion.png"));
-                bulletSprite = ImageIO.read(new File("bullets
+                bulletSprite = ImageIO.read(new File("bullets.png"));
+            }
+            catch (IOException ioe) // Print error message if
