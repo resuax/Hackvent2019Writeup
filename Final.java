@@ -405,4 +405,5 @@ public class Final
             {
                 cellSprite = ImageIO.read(new File("wbloodcells.png"));
                 backgroundSprite = ImageIO.read(new File("redpixel.jpg"));
-                g
+                germSprite = ImageIO.read(new File("germs.gif"));
+                explosionSprite = Imag
