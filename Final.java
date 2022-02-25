@@ -409,4 +409,9 @@ public class Final
                 explosionSprite = ImageIO.read(new File("explosion.png"));
                 bulletSprite = ImageIO.read(new File("bullets.png"));
             }
-            catch (IOException ioe) // Print error message if
+            catch (IOException ioe) // Print error message if error
+            {
+                System.out.println("Image error.");
+            }
+            
+   
