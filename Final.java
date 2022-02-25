@@ -414,4 +414,5 @@ public class Final
                 System.out.println("Image error.");
             }
             
-   
+            // Get subimages of white blood cell sprite sheet.
+            for (int ii = 0; 
