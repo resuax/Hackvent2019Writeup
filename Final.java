@@ -415,4 +415,6 @@ public class Final
             }
             
             // Get subimages of white blood cell sprite sheet.
-            for (int ii = 0; 
+            for (int ii = 0; ii <  4; ii++)
+            {
+                BufferedImage image = cellSprite.get
