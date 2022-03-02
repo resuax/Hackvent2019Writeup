@@ -417,4 +417,5 @@ public class Final
             // Get subimages of white blood cell sprite sheet.
             for (int ii = 0; ii <  4; ii++)
             {
-                BufferedImage image = cellSprite.get
+                BufferedImage image = cellSprite.getSubimage(ii * 90, 0, 94, 93);
+                objectCells.add(new GameObject(image, 94, 93
