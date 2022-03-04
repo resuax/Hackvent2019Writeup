@@ -422,4 +422,6 @@ public class Final
             }
             
             for (int ii = 80; ii <= 200; ii += 40)
-       
+            {
+                BufferedImage orangeImage =
+            germSp
