@@ -418,4 +418,8 @@ public class Final
             for (int ii = 0; ii <  4; ii++)
             {
                 BufferedImage image = cellSprite.getSubimage(ii * 90, 0, 94, 93);
-                objectCells.add(new GameObject(image, 94, 93
+                objectCells.add(new GameObject(image, 94, 93, ii * 90, 0));
+            }
+            
+            for (int ii = 80; ii <= 200; ii += 40)
+       
