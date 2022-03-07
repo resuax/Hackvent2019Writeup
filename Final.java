@@ -425,4 +425,7 @@ public class Final
             {
                 BufferedImage orangeImage =
             germSprite.getSubimage(ii, 60, 39, 60);
-                objectOrangeGerms.add(new GameObject(orangeImage, 39
+                objectOrangeGerms.add(new GameObject(orangeImage, 39, 60, ii, 60));
+                
+                BufferedImage purpleImage = 
+     
