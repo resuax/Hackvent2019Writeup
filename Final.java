@@ -433,4 +433,7 @@ public class Final
                 
                 BufferedImage blackImage = 
             germSprite.getSubimage(ii, 180, 39, 60);
-                objectBlackGerms.add(new
+                objectBlackGerms.add(new GameObject(blackImage, 39, 60, ii, 180));
+            }
+
+            // Get sub
