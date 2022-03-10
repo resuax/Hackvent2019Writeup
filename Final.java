@@ -436,4 +436,5 @@ public class Final
                 objectBlackGerms.add(new GameObject(blackImage, 39, 60, ii, 180));
             }
 
-            // Get sub
+            // Get subimages of bullet from bullet sprite sheet.
+            for (int ii = 0; ii <= 69
