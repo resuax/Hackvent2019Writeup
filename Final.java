@@ -440,4 +440,5 @@ public class Final
             for (int ii = 0; ii <= 69; ii += 23)
             {
                 BufferedImage bulletImage = 
-   
+            bulletSprite.getSubimage(ii, 0, 23, 25);
+                objectBullets.add(new GameOb
