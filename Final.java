@@ -445,4 +445,6 @@ public class Final
             }
 
             int kaboomWidth = 39;
-     
+            int kaboomHeight = 39;
+            for (int ii = 0; ii < 13; ii++)
+          
