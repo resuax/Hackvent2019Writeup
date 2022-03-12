@@ -441,4 +441,8 @@ public class Final
             {
                 BufferedImage bulletImage = 
             bulletSprite.getSubimage(ii, 0, 23, 25);
-                objectBullets.add(new GameOb
+                objectBullets.add(new GameObject(bulletImage, 23, 25, ii, 0));
+            }
+
+            int kaboomWidth = 39;
+     
