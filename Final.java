@@ -437,4 +437,7 @@ public class Final
             }
 
             // Get subimages of bullet from bullet sprite sheet.
-            for (int ii = 0; ii <= 69
+            for (int ii = 0; ii <= 69; ii += 23)
+            {
+                BufferedImage bulletImage = 
+   
