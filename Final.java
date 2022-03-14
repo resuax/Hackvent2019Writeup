@@ -449,4 +449,5 @@ public class Final
             for (int ii = 0; ii < 13; ii++)
             {    
             // Get subimages of explosion from explosion sprite sheet.
-                
+                kaboom = explosionSprite.getSubimage(ii * kaboomWidth,
+                               
