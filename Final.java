@@ -452,4 +452,5 @@ public class Final
                 kaboom = explosionSprite.getSubimage(ii * kaboomWidth,
                                  157 - kaboomHeight,
                                  kaboomWidth, kaboomHeight);
-    
+                objectExplosion.add(new GameObject(kaboom, 
+                               kab
