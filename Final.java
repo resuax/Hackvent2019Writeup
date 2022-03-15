@@ -453,4 +453,8 @@ public class Final
                                  157 - kaboomHeight,
                                  kaboomWidth, kaboomHeight);
                 objectExplosion.add(new GameObject(kaboom, 
-                               kab
+                               kaboomWidth, kaboomHeight, 
+                               100, 100));
+            }
+
+          
