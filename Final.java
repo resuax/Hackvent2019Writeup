@@ -457,4 +457,6 @@ public class Final
                                100, 100));
             }
 
+            // Animate the cell, germs, and background.
+            sa = new SpriteAnimation();
           
