@@ -459,4 +459,6 @@ public class Final
 
             // Animate the cell, germs, and background.
             sa = new SpriteAnimation();
-          
+            generalAnimations = new Timer(200, sa);
+
+            // Create the germs and pl
