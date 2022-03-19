@@ -463,4 +463,7 @@ public class Final
 
             // Create the germs and place them on the game board.
             cg = new CreateGerms();
-            createGer
+            createGerms = new Timer(500, cg);
+
+            // Move the germs around on the board.
+          
