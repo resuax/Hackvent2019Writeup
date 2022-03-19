@@ -469,4 +469,6 @@ public class Final
             mg = new MoveGerms();
             moveGerms = new Timer(1000, mg);
         
-         
+            // Animate the explosion.
+            ea = new ExplosionAnimation();
+            explosionTimer
