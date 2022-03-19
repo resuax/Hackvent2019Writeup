@@ -466,4 +466,7 @@ public class Final
             createGerms = new Timer(500, cg);
 
             // Move the germs around on the board.
-          
+            mg = new MoveGerms();
+            moveGerms = new Timer(1000, mg);
+        
+         
