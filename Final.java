@@ -461,4 +461,6 @@ public class Final
             sa = new SpriteAnimation();
             generalAnimations = new Timer(200, sa);
 
-            // Create the germs and pl
+            // Create the germs and place them on the game board.
+            cg = new CreateGerms();
+            createGer
