@@ -477,4 +477,5 @@ public class Final
             pauseCounter = 0; // Whether to stop/start timers.
             explosionCounter = counter = 1;    // Counter for animations.
 
-   
+            generalAnimations.start();
+           // explosionTimer.start()
