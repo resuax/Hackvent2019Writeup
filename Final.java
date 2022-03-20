@@ -473,4 +473,6 @@ public class Final
             ea = new ExplosionAnimation();
             explosionTimer = new Timer(60, ea);
 
-            timeToDrawCounter = 0; // Maintains limit of obje
+            timeToDrawCounter = 0; // Maintains limit of objects to be drawn.
+            pauseCounter = 0; // Whether to stop/start timers.
+            
