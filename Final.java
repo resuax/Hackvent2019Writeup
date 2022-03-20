@@ -471,4 +471,6 @@ public class Final
         
             // Animate the explosion.
             ea = new ExplosionAnimation();
-            explosionTimer
+            explosionTimer = new Timer(60, ea);
+
+            timeToDrawCounter = 0; // Maintains limit of obje
