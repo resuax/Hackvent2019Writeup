@@ -475,4 +475,6 @@ public class Final
 
             timeToDrawCounter = 0; // Maintains limit of objects to be drawn.
             pauseCounter = 0; // Whether to stop/start timers.
-            
+            explosionCounter = counter = 1;    // Counter for animations.
+
+   
