@@ -478,4 +478,7 @@ public class Final
             explosionCounter = counter = 1;    // Counter for animations.
 
             generalAnimations.start();
-           // explosionTimer.start()
+           // explosionTimer.start();
+        }
+
+        public void generateEnemies()  // Generates germs in easy m
