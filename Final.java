@@ -481,4 +481,7 @@ public class Final
            // explosionTimer.start();
         }
 
-        public void generateEnemies()  // Generates germs in easy m
+        public void generateEnemies()  // Generates germs in easy mode.
+        {
+            germPoint = randomPointGerm();
+            while (germs.contains(germPo
