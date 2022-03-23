@@ -493,4 +493,5 @@ public class Final
 
         public void moveBullets()
         {
-	    
+	    ArrayList<GameObject> newBullets = new ArrayList<GameObject>();
+	    for (GameObject
