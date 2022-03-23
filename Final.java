@@ -484,4 +484,8 @@ public class Final
         public void generateEnemies()  // Generates germs in easy mode.
         {
             germPoint = randomPointGerm();
-            while (germs.contains(germPo
+            while (germs.contains(germPoint))
+            {
+                germPoint = randomPointGerm();
+            }
+   
