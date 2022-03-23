@@ -488,4 +488,9 @@ public class Final
             {
                 germPoint = randomPointGerm();
             }
-   
+            germs.add(germPoint);
+        }   
+
+        public void moveBullets()
+        {
+	    
