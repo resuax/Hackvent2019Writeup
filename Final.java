@@ -496,4 +496,5 @@ public class Final
 	    ArrayList<GameObject> newBullets = new ArrayList<GameObject>();
 	    for (GameObject bullet : bullets)
 	    {
-		GameObject newBullet = new GameObject(bullet.g
+		GameObject newBullet = new GameObject(bullet.getDrawing(), bullet.getWidth(), bullet.getHeight(),bullet.getX(), bullet.getY() - 1);
+		newBu
