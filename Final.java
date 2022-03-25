@@ -497,4 +497,9 @@ public class Final
 	    for (GameObject bullet : bullets)
 	    {
 		GameObject newBullet = new GameObject(bullet.getDrawing(), bullet.getWidth(), bullet.getHeight(),bullet.getX(), bullet.getY() - 1);
-		newBu
+		newBullets.add(newBullet);
+	    }
+	    bullets = newBullets;
+        }
+
+        public Point randomPointCell
