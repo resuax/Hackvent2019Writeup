@@ -502,4 +502,6 @@ public class Final
 	    bullets = newBullets;
         }
 
-        public Point randomPointCell
+        public Point randomPointCell()  // Random point for cell.
+        {
+            return new Point((int)(Math.random()
