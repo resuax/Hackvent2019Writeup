@@ -504,4 +504,7 @@ public class Final
 
         public Point randomPointCell()  // Random point for cell.
         {
-            return new Point((int)(Math.random()
+            return new Point((int)(Math.random() * 10), 9);
+        }
+
+        public Point randomPointGerm()  // Random Point
