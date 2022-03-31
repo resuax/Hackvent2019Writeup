@@ -507,4 +507,7 @@ public class Final
             return new Point((int)(Math.random() * 10), 9);
         }
 
-        public Point randomPointGerm()  // Random Point
+        public Point randomPointGerm()  // Random Point for germ.
+        {
+            return new Point((int)(Math.random() * 10), 0);
+    
