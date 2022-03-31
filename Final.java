@@ -510,4 +510,7 @@ public class Final
         public Point randomPointGerm()  // Random Point for germ.
         {
             return new Point((int)(Math.random() * 10), 0);
-    
+        }
+
+        public int getPixelX(int generatedNumber)   // Generate xCord from random point.
+ 
