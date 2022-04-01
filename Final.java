@@ -513,4 +513,8 @@ public class Final
         }
 
         public int getPixelX(int generatedNumber)   // Generate xCord from random point.
- 
+        {
+            return (generatedNumber * 80);
+        }
+
+        public in
