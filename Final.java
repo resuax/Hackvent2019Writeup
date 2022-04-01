@@ -519,4 +519,7 @@ public class Final
 
         public int getPixelY(int generatedNumber)   // Generate yCord from random point.
         {
-            
+            return (generatedNumber * 58);
+        }
+
+        public void paintC
