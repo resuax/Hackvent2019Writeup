@@ -522,4 +522,8 @@ public class Final
             return (generatedNumber * 58);
         }
 
-        public void paintC
+        public void paintComponent(Graphics g)
+        {
+            super.paintComponent(g);
+
+            // Draw backgroun
