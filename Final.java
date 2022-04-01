@@ -517,4 +517,6 @@ public class Final
             return (generatedNumber * 80);
         }
 
-        public in
+        public int getPixelY(int generatedNumber)   // Generate yCord from random point.
+        {
+            
