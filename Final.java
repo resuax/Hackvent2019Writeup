@@ -529,4 +529,6 @@ public class Final
             // Draw background.
             g.drawImage(backgroundSprite, 0, 0, 
             backgroundWidth, backgroundHeight, this); 
-            g.drawImage(explosionDrawing, 100, 100, 80, 50, 
+            g.drawImage(explosionDrawing, 100, 100, 80, 50, this); // Draw explosions.
+           
+            // Get valid pixel locations for white bl
