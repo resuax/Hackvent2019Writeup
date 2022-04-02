@@ -526,4 +526,6 @@ public class Final
         {
             super.paintComponent(g);
 
-            // Draw backgroun
+            // Draw background.
+            g.drawImage(backgroundSprite, 0, 0, 
+            backgroundW
