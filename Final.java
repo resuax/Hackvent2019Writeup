@@ -528,4 +528,5 @@ public class Final
 
             // Draw background.
             g.drawImage(backgroundSprite, 0, 0, 
-            backgroundW
+            backgroundWidth, backgroundHeight, this); 
+            g.drawImage(explosionDrawing, 100, 100, 80, 50, 
