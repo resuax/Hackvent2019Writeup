@@ -531,4 +531,7 @@ public class Final
             backgroundWidth, backgroundHeight, this); 
             g.drawImage(explosionDrawing, 100, 100, 80, 50, this); // Draw explosions.
            
-            // Get valid pixel locations for white bl
+            // Get valid pixel locations for white blood cell and draw.
+            for (Point whiteBloodCellPoint : cells)
+            {
+               
