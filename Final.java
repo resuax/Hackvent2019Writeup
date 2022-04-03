@@ -534,4 +534,5 @@ public class Final
             // Get valid pixel locations for white blood cell and draw.
             for (Point whiteBloodCellPoint : cells)
             {
-               
+                cellPixelX = getPixelX(whiteBloodCellPoint.x);
+                cellPixelY = getPixelY(
