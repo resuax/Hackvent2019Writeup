@@ -536,4 +536,7 @@ public class Final
             {
                 cellPixelX = getPixelX(whiteBloodCellPoint.x);
                 cellPixelY = getPixelY(whiteBloodCellPoint.y);
-                // Print message if germ hits white blood cel
+                // Print message if germ hits white blood cell.
+                if (germs.contains(whiteBloodCellPoint))
+                {
+                    System.out.
