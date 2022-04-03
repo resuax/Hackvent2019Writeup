@@ -535,4 +535,5 @@ public class Final
             for (Point whiteBloodCellPoint : cells)
             {
                 cellPixelX = getPixelX(whiteBloodCellPoint.x);
-                cellPixelY = getPixelY(
+                cellPixelY = getPixelY(whiteBloodCellPoint.y);
+                // Print message if germ hits white blood cel
