@@ -547,4 +547,5 @@ public class Final
             // Get valid pixels locations for germs and draw.
             for (Point germEnemyPoint : germs)
             {
-       
+                germPixelX = getPixelX(germEnemyPoint.x);
+                germPixelY 
