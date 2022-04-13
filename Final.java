@@ -539,4 +539,6 @@ public class Final
                 // Print message if germ hits white blood cell.
                 if (germs.contains(whiteBloodCellPoint))
                 {
-                    System.out.
+                    System.out.println("Hit by germ!");
+                }
+                g.drawImage(drawing, cellPixelX, 
