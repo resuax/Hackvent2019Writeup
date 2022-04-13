@@ -544,4 +544,7 @@ public class Final
                 g.drawImage(drawing, cellPixelX, cellPixelY, 60, 70, this); 
             }
 
-            // Get valid pixels locations for ge
+            // Get valid pixels locations for germs and draw.
+            for (Point germEnemyPoint : germs)
+            {
+       
