@@ -541,4 +541,7 @@ public class Final
                 {
                     System.out.println("Hit by germ!");
                 }
-                g.drawImage(drawing, cellPixelX, 
+                g.drawImage(drawing, cellPixelX, cellPixelY, 60, 70, this); 
+            }
+
+            // Get valid pixels locations for ge
