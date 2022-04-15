@@ -549,4 +549,5 @@ public class Final
             {
                 germPixelX = getPixelX(germEnemyPoint.x);
                 germPixelY = getPixelY(germEnemyPoint.y);
-                germToBeDrawn = purpleDrawing; 
+                germToBeDrawn = purpleDrawing;  // Use purple germ sprite.
+                g.drawImage(germToBeDrawn, germPixelX, germPixelY
