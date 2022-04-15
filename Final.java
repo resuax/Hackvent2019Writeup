@@ -550,4 +550,8 @@ public class Final
                 germPixelX = getPixelX(germEnemyPoint.x);
                 germPixelY = getPixelY(germEnemyPoint.y);
                 germToBeDrawn = purpleDrawing;  // Use purple germ sprite.
-                g.drawImage(germToBeDrawn, germPixelX, germPixelY
+                g.drawImage(germToBeDrawn, germPixelX, germPixelY - 10, 
+                50, 60, this);       
+            }
+
+            // Draw bullets after values are set.
