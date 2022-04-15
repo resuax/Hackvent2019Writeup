@@ -548,4 +548,5 @@ public class Final
             for (Point germEnemyPoint : germs)
             {
                 germPixelX = getPixelX(germEnemyPoint.x);
-                germPixelY 
+                germPixelY = getPixelY(germEnemyPoint.y);
+                germToBeDrawn = purpleDrawing; 
