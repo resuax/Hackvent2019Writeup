@@ -558,4 +558,6 @@ public class Final
 	    for (GameObject bullet : bullets)
 	    {
 		g.drawImage(bullet.getDrawing(),
-			   
+			    getPixelX(bullet.getX()), 
+			    getPixelY(bullet.getY()),
+			    bullet.getWidth(), bullet.getHeig
