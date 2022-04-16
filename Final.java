@@ -555,3 +555,7 @@ public class Final
             }
 
             // Draw bullets after values are set.
+	    for (GameObject bullet : bullets)
+	    {
+		g.drawImage(bullet.getDrawing(),
+			   
