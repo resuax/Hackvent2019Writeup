@@ -560,4 +560,8 @@ public class Final
 		g.drawImage(bullet.getDrawing(),
 			    getPixelX(bullet.getX()), 
 			    getPixelY(bullet.getY()),
-			    bullet.getWidth(), bullet.getHeig
+			    bullet.getWidth(), bullet.getHeight(), this);
+	    }
+
+            if (pauseBoolean != true)   // If game is in play.
+            { 
