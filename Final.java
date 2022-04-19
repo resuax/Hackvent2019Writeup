@@ -564,4 +564,5 @@ public class Final
 	    }
 
             if (pauseBoolean != true)   // If game is in play.
-            { 
+            {   
+               moveBullets(); // Move the bullets across the board.
