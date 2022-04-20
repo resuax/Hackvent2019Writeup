@@ -574,3 +574,9 @@ public class Final
                 g.setColor(Color.black);
                 g.fillRect(70, 25, 650, 50);
 
+            }
+        }   
+
+        public void keyPressed(KeyEvent e)
+        {
+            char c = 
