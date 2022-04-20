@@ -571,3 +571,6 @@ public class Final
             if (pauseBoolean != false)  // If game is paused.
             {
                 // Black rectangle shown when game is paused; for visibility.
+                g.setColor(Color.black);
+                g.fillRect(70, 25, 650, 50);
+
