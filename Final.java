@@ -579,4 +579,7 @@ public class Final
 
         public void keyPressed(KeyEvent e)
         {
-            char c = 
+            char c = e.getKeyChar();
+            if (c == 'p') // Pause game
+            {
+          
