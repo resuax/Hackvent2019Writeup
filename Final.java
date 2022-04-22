@@ -582,4 +582,6 @@ public class Final
             char c = e.getKeyChar();
             if (c == 'p') // Pause game
             {
-          
+                pauseCounter++;
+                if (pauseCounter % 2 == 0) // Start game again
+       
