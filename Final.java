@@ -584,4 +584,6 @@ public class Final
             {
                 pauseCounter++;
                 if (pauseCounter % 2 == 0) // Start game again
-       
+                {
+                    pauseBoolean = false;
+                    ge
