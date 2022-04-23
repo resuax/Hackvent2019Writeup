@@ -586,4 +586,6 @@ public class Final
                 if (pauseCounter % 2 == 0) // Start game again
                 {
                     pauseBoolean = false;
-                    ge
+                    generalAnimations.start();
+                    //explosionTimer.start();
+     
