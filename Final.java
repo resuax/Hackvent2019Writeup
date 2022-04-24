@@ -588,4 +588,7 @@ public class Final
                     pauseBoolean = false;
                     generalAnimations.start();
                     //explosionTimer.start();
+                    createGerms.start();
+                    moveGerms.start();
+
      
