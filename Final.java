@@ -591,4 +591,6 @@ public class Final
                     createGerms.start();
                     moveGerms.start();
 
-     
+                    // Remove JComponents if game is not paused.
+                    remove(howToPlayButton);
+ 
