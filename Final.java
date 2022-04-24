@@ -593,4 +593,6 @@ public class Final
 
                     // Remove JComponents if game is not paused.
                     remove(howToPlayButton);
- 
+                    remove(immunePauseButton);
+                    remove(quitPauseButton);
+         
