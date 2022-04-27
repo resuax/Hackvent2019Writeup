@@ -595,4 +595,7 @@ public class Final
                     remove(howToPlayButton);
                     remove(immunePauseButton);
                     remove(quitPauseButton);
-         
+                    remove(pauseMessage);
+                }
+                
+                else // Stop 
