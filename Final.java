@@ -598,4 +598,7 @@ public class Final
                     remove(pauseMessage);
                 }
                 
-                else // Stop 
+                else // Stop everything
+                {
+                    pauseBoolean = true;
+                  
