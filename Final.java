@@ -601,4 +601,6 @@ public class Final
                 else // Stop everything
                 {
                     pauseBoolean = true;
-                  
+                    generalAnimations.stop();
+                    explosionTimer.stop();
+                 
