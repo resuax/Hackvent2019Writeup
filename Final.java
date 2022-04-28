@@ -603,4 +603,7 @@ public class Final
                     pauseBoolean = true;
                     generalAnimations.stop();
                     explosionTimer.stop();
-                 
+                    createGerms.stop();
+                    moveGerms.stop();
+
+                    // JB
