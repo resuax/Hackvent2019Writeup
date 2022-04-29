@@ -608,4 +608,5 @@ public class Final
 
                     // JButton to return to titlescreen.
                     howToPlayButton.setFont(font);
-      
+                    howToPlayButton.addActionListener(new ButtonInfoListener());
+        
