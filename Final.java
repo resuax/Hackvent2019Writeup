@@ -610,4 +610,7 @@ public class Final
                     howToPlayButton.setFont(font);
                     howToPlayButton.addActionListener(new ButtonInfoListener());
                     howToPlayButton.setBounds(305, 180, 188, 60);
-                    add(howToP
+                    add(howToPlayButton);
+                    
+                    // JButton to show immune system info.
+   
