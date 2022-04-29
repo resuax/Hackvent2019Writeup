@@ -606,4 +606,6 @@ public class Final
                     createGerms.stop();
                     moveGerms.stop();
 
-                    // JB
+                    // JButton to return to titlescreen.
+                    howToPlayButton.setFont(font);
+      
