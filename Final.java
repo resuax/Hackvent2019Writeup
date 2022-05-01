@@ -614,4 +614,4 @@ public class Final
                     
                     // JButton to show immune system info.
                    immunePauseButton.setFont(new Font("Arial", Font.BOLD, 18));
-  
+                   immunePauseButton.addActionListener(new ButtonImmuneListener());
