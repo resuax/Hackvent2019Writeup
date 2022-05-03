@@ -616,4 +616,6 @@ public class Final
                    immunePauseButton.setFont(new Font("Arial", Font.BOLD, 18));
                    immunePauseButton.addActionListener(new ButtonImmuneListener());
                    immunePauseButton.setBounds(305, 260, 188, 60);
-              
+                   add(immunePauseButton);
+                   
+                   // JButton that returns
