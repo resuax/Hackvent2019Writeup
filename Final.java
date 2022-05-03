@@ -618,4 +618,6 @@ public class Final
                    immunePauseButton.setBounds(305, 260, 188, 60);
                    add(immunePauseButton);
                    
-                   // JButton that returns
+                   // JButton that returns to main menu.
+                   quitPauseButton.setFont(font);
+                   quitPaus
