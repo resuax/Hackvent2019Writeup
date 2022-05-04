@@ -620,4 +620,5 @@ public class Final
                    
                    // JButton that returns to main menu.
                    quitPauseButton.setFont(font);
-                   quitPaus
+                   quitPauseButton.addActionListener(new ButtonMainListener());
+                   quitPauseButton.s
