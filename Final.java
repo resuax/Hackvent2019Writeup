@@ -625,4 +625,5 @@ public class Final
                    add(quitPauseButton);
                    
                    // Message that instructs user how to resume game.
-              
+                   pauseMessage.setFont(new Font("Arial", Font.BOLD, 40));
+                   pauseMessage.setF
