@@ -624,4 +624,5 @@ public class Final
                    quitPauseButton.setBounds(305, 340, 188, 60);
                    add(quitPauseButton);
                    
-        
+                   // Message that instructs user how to resume game.
+              
