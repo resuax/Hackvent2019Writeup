@@ -628,4 +628,7 @@ public class Final
                    pauseMessage.setFont(new Font("Arial", Font.BOLD, 40));
                    pauseMessage.setForeground(Color.white);
                    pauseMessage.setBounds(80, 25, 680, 50);
+                   add(pauseMessage);
+                }
+            }
         
