@@ -626,4 +626,6 @@ public class Final
                    
                    // Message that instructs user how to resume game.
                    pauseMessage.setFont(new Font("Arial", Font.BOLD, 40));
-                   pauseMessage.setF
+                   pauseMessage.setForeground(Color.white);
+                   pauseMessage.setBounds(80, 25, 680, 50);
+        
