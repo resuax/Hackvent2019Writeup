@@ -631,4 +631,7 @@ public class Final
                    add(pauseMessage);
                 }
             }
-        
+            
+            if (pauseBoolean != true)   // Only move when game is not paused.
+            {
+     
