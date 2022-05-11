@@ -634,4 +634,6 @@ public class Final
             
             if (pauseBoolean != true)   // Only move when game is not paused.
             {
-     
+                if (c == 'a') // Move left
+                {
+                    cellPoint.x -= 1;
