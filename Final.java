@@ -639,4 +639,9 @@ public class Final
                     cellPoint.x -= 1;
                     if (cellPoint.x < 0)
                     {
-                        cellPoint
+                        cellPoint.x = 9;
+                    }
+                }
+
+                if (c == 'd') // Move right
+ 
