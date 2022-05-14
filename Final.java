@@ -637,3 +637,6 @@ public class Final
                 if (c == 'a') // Move left
                 {
                     cellPoint.x -= 1;
+                    if (cellPoint.x < 0)
+                    {
+                        cellPoint
