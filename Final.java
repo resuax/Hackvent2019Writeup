@@ -644,4 +644,6 @@ public class Final
                 }
 
                 if (c == 'd') // Move right
- 
+                {
+                    cellPoint.x += 1;
+                    if (cellPoint.x > 9)
