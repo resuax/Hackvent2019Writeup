@@ -647,3 +647,6 @@ public class Final
                 {
                     cellPoint.x += 1;
                     if (cellPoint.x > 9)
+                    {
+                        cellPoint.x = 0;
+              
