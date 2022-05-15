@@ -649,4 +649,7 @@ public class Final
                     if (cellPoint.x > 9)
                     {
                         cellPoint.x = 0;
-              
+                    }
+                }
+                    
+                if (e.getKeyC
