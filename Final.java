@@ -652,4 +652,6 @@ public class Final
                     }
                 }
                     
-                if (e.getKeyC
+                if (e.getKeyCode() == KeyEvent.VK_SPACE)    // Spacebar pressed.
+                {
+   
