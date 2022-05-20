@@ -657,4 +657,7 @@ public class Final
                     // Create bullet, add to arraylist, and get pixel values.
 		    BufferedImage bulletImage = 
 			bulletSprite.getSubimage(0, 0, 23, 25);
-                 
+                    GameObject bullet = 
+			new GameObject(bulletImage,
+				       bulletWidth, bulletHeight,
+				   
