@@ -655,4 +655,6 @@ public class Final
                 if (e.getKeyCode() == KeyEvent.VK_SPACE)    // Spacebar pressed.
                 {
                     // Create bullet, add to arraylist, and get pixel values.
-		    BufferedI
+		    BufferedImage bulletImage = 
+			bulletSprite.getSubimage(0, 0, 23, 25);
+                 
