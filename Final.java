@@ -662,4 +662,8 @@ public class Final
 				       bulletWidth, bulletHeight,
 				       cellPoint.x, cellPoint.y - 1);
                     bullets.add(bullet);
-          
+                    whenToDrawBullets++;
+                }
+            }
+            repaint();
+     
