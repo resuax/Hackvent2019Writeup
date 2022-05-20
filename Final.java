@@ -660,4 +660,6 @@ public class Final
                     GameObject bullet = 
 			new GameObject(bulletImage,
 				       bulletWidth, bulletHeight,
-				   
+				       cellPoint.x, cellPoint.y - 1);
+                    bullets.add(bullet);
+          
