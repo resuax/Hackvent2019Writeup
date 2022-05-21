@@ -666,4 +666,6 @@ public class Final
                 }
             }
             repaint();
-     
+        }
+        public void keyReleased(KeyEvent e){}
+        public void keyTyped(KeyEvent e){
