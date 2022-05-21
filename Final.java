@@ -672,4 +672,6 @@ public class Final
     }
         
         // Return to main menu.
-        class ButtonMainListener impl
+        class ButtonMainListener implements ActionListener
+        {
+            public void actionPerformed(ActionEvent
