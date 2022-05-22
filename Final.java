@@ -681,4 +681,7 @@ public class Final
         }
 
         // Go to game panel screen.
-        class ButtonPlayListener implements Acti
+        class ButtonPlayListener implements ActionListener
+        {
+            public void actionPerformed(ActionEvent ae)
+           
