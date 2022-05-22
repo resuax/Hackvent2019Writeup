@@ -678,4 +678,7 @@ public class Final
             {
                 welcomeLayout.show(titlePanel, "Main Menu");
             }
-    
+        }
+
+        // Go to game panel screen.
+        class ButtonPlayListener implements Acti
