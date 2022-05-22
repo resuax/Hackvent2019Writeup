@@ -674,4 +674,8 @@ public class Final
         // Return to main menu.
         class ButtonMainListener implements ActionListener
         {
-            public void actionPerformed(ActionEvent
+            public void actionPerformed(ActionEvent ae)
+            {
+                welcomeLayout.show(titlePanel, "Main Menu");
+            }
+    
