@@ -684,4 +684,6 @@ public class Final
         class ButtonPlayListener implements ActionListener
         {
             public void actionPerformed(ActionEvent ae)
-           
+            {
+                welcomeLayout.show(titlePanel, "WBC Mini-Game");
+                
