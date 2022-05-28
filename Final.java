@@ -688,4 +688,8 @@ public class Final
                 welcomeLayout.show(titlePanel, "WBC Mini-Game");
                 if (pauseBoolean != true)   // Start playing the game.
                 {
-                   c
+                   createGerms.start();
+                   moveGerms.start();
+                }
+            }
+        }
