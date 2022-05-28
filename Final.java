@@ -695,4 +695,8 @@ public class Final
         }
 
         // Get the next panel when JButton is clicked.
-        class ButtonInfoListener implements Ac
+        class ButtonInfoListener implements ActionListener
+        {
+            public void actionPerformed(ActionEvent ae)
+            {
+       
