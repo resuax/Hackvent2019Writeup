@@ -699,4 +699,7 @@ public class Final
         {
             public void actionPerformed(ActionEvent ae)
             {
-       
+                welcomeLayout.show(titlePanel, "Instructions");
+            }
+        }
+ 
