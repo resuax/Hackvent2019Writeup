@@ -702,4 +702,6 @@ public class Final
                 welcomeLayout.show(titlePanel, "Instructions");
             }
         }
- 
+        
+        // Show panel that will contain info about the Immune System
+        cla
