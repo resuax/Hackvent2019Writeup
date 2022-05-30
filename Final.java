@@ -704,4 +704,6 @@ public class Final
         }
         
         // Show panel that will contain info about the Immune System
-        cla
+        class ButtonImmuneListener implements ActionListener
+        {
+            public void actionPerf
