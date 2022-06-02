@@ -706,4 +706,6 @@ public class Final
         // Show panel that will contain info about the Immune System
         class ButtonImmuneListener implements ActionListener
         {
-            public void actionPerf
+            public void actionPerformed(ActionEvent ae)
+            {
+                welcomeLayout.show(titlePanel, "Immun
