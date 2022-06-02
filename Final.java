@@ -708,4 +708,8 @@ public class Final
         {
             public void actionPerformed(ActionEvent ae)
             {
-                welcomeLayout.show(titlePanel, "Immun
+                welcomeLayout.show(titlePanel, "Immune System");
+            }
+        }
+
+        class ButtonQuitListener implements ActionL
