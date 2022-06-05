@@ -712,4 +712,8 @@ public class Final
             }
         }
 
-        class ButtonQuitListener implements ActionL
+        class ButtonQuitListener implements ActionListener
+        {
+            public void actionPerformed(ActionEvent ae)
+            {
+           
