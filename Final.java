@@ -723,4 +723,7 @@ public class Final
 
 class GameObject
 {
-    BufferedIm
+    BufferedImage drawing;
+    int width, height;
+    int x, y;
+    //TODO: switch order to x, y, wid
