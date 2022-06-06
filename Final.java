@@ -726,4 +726,7 @@ class GameObject
     BufferedImage drawing;
     int width, height;
     int x, y;
-    //TODO: switch order to x, y, wid
+    //TODO: switch order to x, y, width, height, img
+    //TODO: make list of images instead of single image
+
+    
