@@ -729,4 +729,6 @@ class GameObject
     //TODO: switch order to x, y, width, height, img
     //TODO: make list of images instead of single image
 
-    
+    public GameObject (BufferedImage _img,
+               int _width, int _height,
+        
