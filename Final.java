@@ -731,4 +731,8 @@ class GameObject
 
     public GameObject (BufferedImage _img,
                int _width, int _height,
-        
+               int _x, int _y)
+    {
+        drawing = _img;
+        width = _width;
+        height = 
