@@ -759,3 +759,9 @@ class GameObject
     {
 	return x;
     }
+
+    public int getY()
+    {
+	return y;
+    }
+}
