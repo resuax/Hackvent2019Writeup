@@ -740,4 +740,11 @@ class GameObject
         y = _y;
     }
 
-    public BufferedImage
+    public BufferedImage getDrawing()
+    {
+        return drawing;
+    }
+
+    public int getWidth()
+    {
+	return width;
