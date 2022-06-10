@@ -3,4 +3,7 @@
    AnatomyArcade.java
 */
 import java.util.ArrayList;
-import java.awt.C
+import java.awt.CardLayout;
+import javax.swing.JFrame;
+import java.io.FileNotFoundException;
+im
