@@ -9,4 +9,7 @@ import java.io.FileNotFoundException;
 import java.io.File;
 import java.util.Scanner;
 import java.util.Collections;
-import java.a
+import java.awt.Dimension;
+public class AnatomyArcade
+{
+    final ArrayList<QuestionAnswer> que
