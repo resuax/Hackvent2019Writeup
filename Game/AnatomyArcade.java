@@ -12,4 +12,7 @@ import java.util.Collections;
 import java.awt.Dimension;
 public class AnatomyArcade
 {
-    final ArrayList<QuestionAnswer> que
+    final ArrayList<QuestionAnswer> questionsAndAnswers
+        = readQuestionsAndAnswers();
+
+    public ArrayList<QuestionAnswer> readQuestion
