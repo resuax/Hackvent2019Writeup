@@ -19,4 +19,6 @@ public class AnatomyArcade
     {
         ArrayList<QuestionAnswer> questionsAndAnswers
             = new ArrayList<QuestionAnswer>();
-        Scanner question
+        Scanner questionScanner, answerScanner, answerLongScanner,
+            incorrectAnswerScanner;
+        ques
