@@ -15,4 +15,6 @@ public class AnatomyArcade
     final ArrayList<QuestionAnswer> questionsAndAnswers
         = readQuestionsAndAnswers();
 
-    public ArrayList<QuestionAnswer> readQuestion
+    public ArrayList<QuestionAnswer> readQuestionsAndAnswers()
+    {
+        ArrayList<QuestionAnswer> questionsAndAnswers
