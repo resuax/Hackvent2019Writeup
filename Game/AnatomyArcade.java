@@ -18,3 +18,5 @@ public class AnatomyArcade
     public ArrayList<QuestionAnswer> readQuestionsAndAnswers()
     {
         ArrayList<QuestionAnswer> questionsAndAnswers
+            = new ArrayList<QuestionAnswer>();
+        Scanner question
