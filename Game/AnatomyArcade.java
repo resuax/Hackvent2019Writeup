@@ -26,4 +26,6 @@ public class AnatomyArcade
         try
             {
                 questionScanner
-                    = new Scanner(new
+                    = new Scanner(new File("questions.txt"));
+                answerScanner
+                    = new Scanner(ne
