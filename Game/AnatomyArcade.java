@@ -21,4 +21,5 @@ public class AnatomyArcade
             = new ArrayList<QuestionAnswer>();
         Scanner questionScanner, answerScanner, answerLongScanner,
             incorrectAnswerScanner;
-        ques
+        questionScanner = answerScanner = answerLongScanner
+            = incorrectAnswerSc
