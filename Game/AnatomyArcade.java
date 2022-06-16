@@ -22,4 +22,8 @@ public class AnatomyArcade
         Scanner questionScanner, answerScanner, answerLongScanner,
             incorrectAnswerScanner;
         questionScanner = answerScanner = answerLongScanner
-            = incorrectAnswerSc
+            = incorrectAnswerScanner = null;
+        try
+            {
+                questionScanner
+                    = new Scanner(new
