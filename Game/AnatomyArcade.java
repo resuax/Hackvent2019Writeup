@@ -32,4 +32,6 @@ public class AnatomyArcade
                 answerLongScanner
                     = new Scanner(new File("answersLong.txt"));
                 incorrectAnswerScanner
-            
+                    = new Scanner(new File("incorrectanswers.txt"));
+            }
+        catch (Fi
