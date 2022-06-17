@@ -34,4 +34,7 @@ public class AnatomyArcade
                 incorrectAnswerScanner
                     = new Scanner(new File("incorrectanswers.txt"));
             }
-        catch (Fi
+        catch (FileNotFoundException fnfe)
+            {
+                fnfe.printStackTrace();
+   
