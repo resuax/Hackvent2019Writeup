@@ -37,4 +37,8 @@ public class AnatomyArcade
         catch (FileNotFoundException fnfe)
             {
                 fnfe.printStackTrace();
-   
+                System.exit(-1);
+            }
+
+        while (questionScanner.hasNextLine()
+ 
