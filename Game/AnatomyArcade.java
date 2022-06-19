@@ -41,4 +41,5 @@ public class AnatomyArcade
             }
 
         while (questionScanner.hasNextLine()
- 
+               && answerScanner.hasNextLine()
+               && answerLongScanner.has
