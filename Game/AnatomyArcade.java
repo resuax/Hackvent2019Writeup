@@ -45,4 +45,5 @@ public class AnatomyArcade
                && answerLongScanner.hasNextLine()
                && incorrectAnswerScanner.hasNextLine())
             {
-              
+                ArrayList<Answer> answers = new ArrayList<Answer>();
+                answers.add(new Answ
