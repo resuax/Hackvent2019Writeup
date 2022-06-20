@@ -48,4 +48,6 @@ public class AnatomyArcade
                 ArrayList<Answer> answers = new ArrayList<Answer>();
                 answers.add(new Answer(true, answerScanner.nextLine()));
 
-                // Add two incorrect
+                // Add two incorrect answers to ArrayList of answers.
+                answers.add(new Answer(false,
+        
