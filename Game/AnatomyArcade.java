@@ -50,4 +50,5 @@ public class AnatomyArcade
 
                 // Add two incorrect answers to ArrayList of answers.
                 answers.add(new Answer(false,
-        
+                                       incorrectAnswerScanner.nextLine()));
+            
