@@ -54,4 +54,6 @@ public class AnatomyArcade
                 answers.add(new Answer(false,
                                        incorrectAnswerScanner.nextLine()));
                 String answerLong = answerLongScanner.nextLine();
-   
+                Collections.shuffle(answers);
+                questionsAndAnswers
+                
