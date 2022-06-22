@@ -52,4 +52,6 @@ public class AnatomyArcade
                 answers.add(new Answer(false,
                                        incorrectAnswerScanner.nextLine()));
                 answers.add(new Answer(false,
-                                       incorrectAnswerScanner.nex
+                                       incorrectAnswerScanner.nextLine()));
+                String answerLong = answerLongScanner.nextLine();
+   
