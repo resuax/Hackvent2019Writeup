@@ -60,3 +60,8 @@ public class AnatomyArcade
                                             answers, answerLong));
             }
         return questionsAndAnswers;
+    }
+
+    public static void main (String[] args)
+    {
+        AnatomyArcade anatomyArcade = new Anato
