@@ -64,4 +64,10 @@ public class AnatomyArcade
 
     public static void main (String[] args)
     {
-        AnatomyArcade anatomyArcade = new Anato
+        AnatomyArcade anatomyArcade = new AnatomyArcade();
+        anatomyArcade.run();
+    }
+
+    public void run()
+    {
+        final 
