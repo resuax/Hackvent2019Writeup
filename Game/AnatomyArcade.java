@@ -70,4 +70,5 @@ public class AnatomyArcade
 
     public void run()
     {
-        final 
+        final Integer MAIN_WINDOW_WIDTH = 800, MAIN_WINDOW_HEIGHT = 600,
+            MAIN_WINDOW_X = 180, M
