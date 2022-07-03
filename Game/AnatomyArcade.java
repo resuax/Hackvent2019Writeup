@@ -73,4 +73,6 @@ public class AnatomyArcade
         final Integer MAIN_WINDOW_WIDTH = 800, MAIN_WINDOW_HEIGHT = 600,
             MAIN_WINDOW_X = 180, MAIN_WINDOW_Y = 100;  
         JFrame mainFrame = new JFrame("ANATOMY ARCADE");
-        m
+        mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        Boolean pause = false;
+        
