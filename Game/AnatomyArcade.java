@@ -75,4 +75,5 @@ public class AnatomyArcade
         JFrame mainFrame = new JFrame("ANATOMY ARCADE");
         mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         Boolean pause = false;
-        
+        int maxNumberOfErrors = 2;
+        final World world  = new World(new ArrayList<Enemy>
