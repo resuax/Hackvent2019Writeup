@@ -79,4 +79,5 @@ public class AnatomyArcade
         final World world  = new World(new ArrayList<Enemy>(),
                                        new ArrayList<Bullet>(),
                                        new ArrayList<Explosion>(),
-                                       pa
+                                       pause, maxNumberOfErrors,
+                                       MAIN_WINDOW_HEIGHT, MAIN_WINDOW_
