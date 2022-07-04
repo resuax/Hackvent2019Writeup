@@ -78,4 +78,5 @@ public class AnatomyArcade
         int maxNumberOfErrors = 2;
         final World world  = new World(new ArrayList<Enemy>(),
                                        new ArrayList<Bullet>(),
-                            
+                                       new ArrayList<Explosion>(),
+                                       pa
