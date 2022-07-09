@@ -82,4 +82,6 @@ public class AnatomyArcade
                                        pause, maxNumberOfErrors,
                                        MAIN_WINDOW_HEIGHT, MAIN_WINDOW_WIDTH);
         ControllerPanel controllerPanel
-            = new ControllerPanel(
+            = new ControllerPanel(new CardLayout(),
+                                  questionsAndAnswers,
+                                
