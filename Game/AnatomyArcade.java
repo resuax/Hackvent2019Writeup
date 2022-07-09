@@ -84,4 +84,6 @@ public class AnatomyArcade
         ControllerPanel controllerPanel
             = new ControllerPanel(new CardLayout(),
                                   questionsAndAnswers,
-                                
+                                  mainFrame,
+                                  world);
+        mainFrame.setDefaultCloseOpera
