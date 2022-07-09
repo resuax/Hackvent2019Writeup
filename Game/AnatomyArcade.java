@@ -80,4 +80,6 @@ public class AnatomyArcade
                                        new ArrayList<Bullet>(),
                                        new ArrayList<Explosion>(),
                                        pause, maxNumberOfErrors,
-                                       MAIN_WINDOW_HEIGHT, MAIN_WINDOW_
+                                       MAIN_WINDOW_HEIGHT, MAIN_WINDOW_WIDTH);
+        ControllerPanel controllerPanel
+            = new ControllerPanel(
