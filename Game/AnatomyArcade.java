@@ -86,4 +86,5 @@ public class AnatomyArcade
                                   questionsAndAnswers,
                                   mainFrame,
                                   world);
-        mainFrame.setDefaultCloseOpera
+        mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        controllerPanel.setPreferredSize(new Dimension(
