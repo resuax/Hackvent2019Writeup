@@ -87,4 +87,6 @@ public class AnatomyArcade
                                   mainFrame,
                                   world);
         mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        controllerPanel.setPreferredSize(new Dimension(
+        controllerPanel.setPreferredSize(new Dimension(MAIN_WINDOW_WIDTH,
+                                                       MAIN_WINDOW_HEIGHT));
+ 
