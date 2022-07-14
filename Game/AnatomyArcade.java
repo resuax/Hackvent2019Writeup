@@ -91,4 +91,6 @@ public class AnatomyArcade
                                                        MAIN_WINDOW_HEIGHT));
         mainFrame.add(controllerPanel);
         mainFrame.pack();
-        mainFrame.
+        mainFrame.setFocusable(true);
+        mainFrame.setResizable(false);
+        mainFrame.setVisible(t
