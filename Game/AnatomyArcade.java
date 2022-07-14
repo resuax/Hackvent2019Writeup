@@ -93,4 +93,6 @@ public class AnatomyArcade
         mainFrame.pack();
         mainFrame.setFocusable(true);
         mainFrame.setResizable(false);
-        mainFrame.setVisible(t
+        mainFrame.setVisible(true);
+    }
+}
