@@ -3,4 +3,9 @@ import java.awt.image.BufferedImage;
 import javax.imageio.ImageIO;
 import java.io.IOException;
 import java.awt.Graphics;
-import java.
+import java.io.File;
+
+class BorderPanel extends JPanel
+{
+    BufferedImage backgroundSprite;
+    public BorderPan
