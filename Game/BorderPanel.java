@@ -12,4 +12,8 @@ class BorderPanel extends JPanel
     {
         try
             {
-                backgroundSprite = ImageIO.read(new File("redpixel.jpg"))
+                backgroundSprite = ImageIO.read(new File("redpixel.jpg"));
+            }
+        catch (IOException ioe)
+            {
+                System.
