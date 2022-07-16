@@ -8,4 +8,8 @@ import java.io.File;
 class BorderPanel extends JPanel
 {
     BufferedImage backgroundSprite;
-    public BorderPan
+    public BorderPanel()
+    {
+        try
+            {
+                backgroundSprite = ImageIO.read(new File("redpixel.jpg"))
