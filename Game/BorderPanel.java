@@ -17,4 +17,10 @@ class BorderPanel extends JPanel
         catch (IOException ioe)
             {
                 System.err.println("no pictures for you!");
-                ioe.printStackTrace(System.er
+                ioe.printStackTrace(System.err);
+            }
+    }
+    
+    public void paintComponent(Graphics g)
+    {
+        in
