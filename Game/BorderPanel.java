@@ -25,4 +25,6 @@ class BorderPanel extends JPanel
     {
         int x, y;
         x = y = 0;
-        g.drawImage(backgroundSprite, x, y, getWidth(),
+        g.drawImage(backgroundSprite, x, y, getWidth(), getHeight(), this);
+    }
+}
