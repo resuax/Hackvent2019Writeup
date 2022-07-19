@@ -23,4 +23,6 @@ class BorderPanel extends JPanel
     
     public void paintComponent(Graphics g)
     {
-        in
+        int x, y;
+        x = y = 0;
+        g.drawImage(backgroundSprite, x, y, getWidth(),
