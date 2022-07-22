@@ -10,3 +10,7 @@ class Bullet extends GameObject
 
         int frameWidth = 24;
         int frameHeight = 25;
+        int xOffset = 0;
+        int yOffset = 0;
+        frameCount = 4;
+   
