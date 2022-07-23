@@ -13,4 +13,6 @@ class Bullet extends GameObject
         int xOffset = 0;
         int yOffset = 0;
         frameCount = 4;
-   
+        for (int ii = 0; ii < frameCount; ii++)
+            {
+                BufferedI
