@@ -16,4 +16,6 @@ class Bullet extends GameObject
         for (int ii = 0; ii < frameCount; ii++)
             {
                 BufferedImage frame
-                    = picOfObject.getSubimage(ii * frameWidth + xO
+                    = picOfObject.getSubimage(ii * frameWidth + xOffset,
+                                              yOffset,
+             
