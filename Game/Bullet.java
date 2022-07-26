@@ -19,4 +19,7 @@ class Bullet extends GameObject
                     = picOfObject.getSubimage(ii * frameWidth + xOffset,
                                               yOffset,
                                               frameWidth, frameHeight);
-                animation.a
+                animation.add(frame);
+            }
+    }
+}
