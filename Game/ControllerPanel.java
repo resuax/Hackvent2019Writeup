@@ -58,3 +58,107 @@ class ControllerPanel extends JPanel implements KeyListener
         final StartMenu startMenu = new StartMenu(this);
         playBase = new PlayBase(this, world);
         HowToPlayPanel howToPlayPanel = new HowToPlayPanel(this);
+        ImmuneSystemPanel immuneSystemPanel = new ImmuneSystemPanel(this);
+        questionPanel = new QuestionPanel(this, questionsAndAnswers, world);
+        correctPanel = new CorrectAnswerPanel(this, questionsAndAnswers);
+        incorrectPanel = new IncorrectAnswerPanel(this, questionsAndAnswers);
+        GameOverPanel gameOverPanel = new GameOverPanel(this);
+        errorsPanel = new NumberOfErrorsPanel(world);
+
+
+        int delayAnimation = 250; //milliseconds
+        ActionListener animatorActionListener = new ActionListener()
+            {
+                public void actionPerformed(ActionEvent evt)
+                {
+                    updateAnimations();
+                }
+            };
+        animationsTimer = new Timer(delayAnimation, animatorActionListener);
+
+        int delayExplosion = 50; //milliseconds
+        ActionListener explosionActionListener = new ActionListener()
+            {
+                public void actionPerformed(ActionEvent evt)
+                {
+                    world.updateExplosions();
+                    handleCompletedExplosions(world);
+                    repaint();
+                }
+            };
+        explosionsTimer = new Timer(delayExplosion, explosionActionListener);
+
+        int delayAddEnemies = 250; //milliseconds
+        ActionListener addEnemiesActionListener = new ActionListener()
+            {
+                public void actionPerformed(ActionEvent evt)
+                {
+                    addEnemy(world);
+                }
+            };
+        addEnemiesTimer = new Timer(delayAddEnemies, addEnemiesActionListener);
+
+        int delayEnemies = 1500;
+        ActionListener moveEnemyActionListener = new ActionListener()
+            {
+                public void actionPerformed(ActionEvent evt)
+                {
+                    moveEnemies(world);
+                    handleEnemiesOffScreen(world);
+                    handleCollisions(world);
+                }
+            };
+        moveEnemiesTimer = new Timer(delayEnemies, moveEnemyActionListener);
+
+        int delayBullets = 250;
+        ActionListener moveBulletActionListener = new ActionListener()
+            {
+                public void actionPerformed(ActionEvent evt)
+                {
+                    moveBullets(world);
+                    handleCollisions(world);
+                }
+            };
+        moveBulletsTimer = new Timer(delayBullets, moveBulletActionListener);
+
+        int delayCheckerboardColors = 250;
+        ActionListener checkerboardColorsActionListener = new ActionListener()
+            {
+                public void actionPerformed(ActionEvent evt)
+                {
+                    startMenu.switchColors();
+                    startMenu.repaint();
+                }
+            };
+        checkerboardColorsTimer = new Timer(delayCheckerboardColors,
+                                            checkerboardColorsActionListener);
+        checkerboardColorsTimer.start();
+
+        add(startMenu, MAIN_MENU);
+        add(playBase, PLAY);
+        add(howToPlayPanel, HOW_TO_PLAY);
+        add(immuneSystemPanel, IMMUNE_SYSTEM);
+        add(questionPanel, QUESTIONS);
+        add(correctPanel, CORRECT_PANELS);
+        add(incorrectPanel, INCORRECT_PANELS);
+        add(gameOverPanel, GAME_OVER);
+    }
+
+    public void keyReleased(KeyEvent e){}
+    public void keyTyped(KeyEvent e){}
+    public void keyPressed(KeyEvent e)
+    {
+        char key = e.getKeyChar();
+        setFocusable(true);
+        if (!pause)
+            {
+                if (key == 'a')
+                    {
+                        playah.moveLeft();
+                    }
+                if (key == 'd')
+                    {
+                        playah.moveRight();
+                    }
+                if (e.getKeyCode() == KeyEvent.VK_SPACE)
+                    {
