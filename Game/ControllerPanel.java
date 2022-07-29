@@ -244,3 +244,94 @@ class ControllerPanel extends JPanel implements KeyListener
         checkerboardColorsTimer.stop();
         cardLayout.show(this, IMMUNE_SYSTEM);
     }
+
+    public void switchToQuestionsPanel()
+    {
+        stopAllTimers();
+        checkerboardColorsTimer.stop();
+        questionPanel.showRandomQuestion();
+        cardLayout.show(this, QUESTIONS);
+    }
+
+    public void switchToGameOverPanel()
+    {
+        cardLayout.show(this, GAME_OVER);
+    }
+
+    public void resetGame()
+    {
+        world.enemies.clear();
+        world.bullets.clear();
+        world.explosions.clear();
+        world.pause = false;
+        world.numberOfErrors = 0;
+    }
+
+    public void updateAnimations()
+    {
+        world.updateFrame();
+        repaint();
+    }
+
+    public void togglePause()
+    {
+        pause = !pause;
+        if (pause)
+            {
+                moveEnemiesTimer.stop();
+                moveBulletsTimer.stop();
+                addEnemiesTimer.stop();
+                playBase.pause();
+            }
+        else
+            {
+                moveEnemiesTimer.start();
+                moveBulletsTimer.start();
+                addEnemiesTimer.start();
+                playBase.unpause();
+            }
+    }
+
+    public void addEnemy(World world)
+    {
+        boolean enemyInPosition;
+        ArrayList<Integer> vacantColumns = vacantPositions(world);
+        ArrayList<Enemy> enemies = world.enemies;
+        if (!vacantColumns.isEmpty())
+            {
+                int random = (int)(Math.random() * vacantColumns.size());
+                int enemyCol = vacantColumns.get(random);
+                Enemy enemy = new Enemy(enemyCol);
+                enemies.add(enemy);
+            }
+    }
+
+    public void moveEnemies(final World world)
+    {
+        boolean offScreen = false;
+        ArrayList<Enemy> enemies = world.enemies;
+        for (Enemy enemy : enemies)
+            {
+                enemy.moveDown();
+            }
+    }
+
+    public void moveBullets(final World world)
+    {
+        ArrayList<Bullet> bullets = world.bullets;
+        for (Bullet bullet : bullets)
+            {
+                bullet.moveUp();
+            }
+    }
+
+    public void handleCollisions(World world)
+    {
+        handleEnemyBulletCollisions(world);
+        handleEnemyPlayerCollisions(world);
+    }
+
+    public void handleEnemyBulletCollisions(World world)
+    {
+        ArrayList<Enemy> enemies = world.enemies;
+        ArrayList<Bullet> bullets = world.bullets;
