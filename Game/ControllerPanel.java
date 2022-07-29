@@ -162,3 +162,85 @@ class ControllerPanel extends JPanel implements KeyListener
                     }
                 if (e.getKeyCode() == KeyEvent.VK_SPACE)
                     {
+                        Bullet bullet = new Bullet(playah.x);
+                        bullets.add(bullet);
+                    }
+            }
+        if (key == 'p')
+            {
+                //show jbutton to leave game.
+                togglePause();
+            }
+        repaint();
+    }
+
+    public void startMovementTimers()
+    {
+        moveEnemiesTimer.start();
+        moveBulletsTimer.start();
+    }
+
+    public void stopAllTimers()
+    {
+        animationsTimer.stop();
+        explosionsTimer.stop();
+        addEnemiesTimer.stop();
+        moveEnemiesTimer.stop();
+        moveBulletsTimer.stop();
+    }
+
+    public void startAllTimers()
+    {
+        animationsTimer.start();
+        explosionsTimer.start();
+        addEnemiesTimer.start();
+        moveEnemiesTimer.start();
+        moveBulletsTimer.start();
+    }
+
+    public void switchToCorrectAnswerPanel(final int questionIndex)
+    {
+        stopAllTimers();
+        correctPanel.switchToCorrectPanel(questionIndex);
+        cardLayout.show(this, CORRECT_PANELS);
+    }
+
+    public void switchToMainMenu()
+    {
+        stopAllTimers();
+        checkerboardColorsTimer.start();
+        cardLayout.show(this, MAIN_MENU);
+    }
+
+    public void switchToPlayPanel()
+    {
+        cardLayout.show(this, PLAY);
+        animationsTimer.start();
+        explosionsTimer.start();
+        checkerboardColorsTimer.stop();
+        if (!pause)
+            {
+                addEnemiesTimer.start();
+                startMovementTimers();
+            }
+    }
+
+    public void resumeGame()
+    {
+        startMovementTimers();
+        togglePause();
+    }
+
+    public void switchToHowToPlayPanel()
+    {
+        stopAllTimers();
+        checkerboardColorsTimer.stop();
+        cardLayout.show(this, HOW_TO_PLAY);
+    }
+
+    public void switchToImmunePanel()
+    {
+        stopAllTimers();
+        checkerboardColorsTimer.stop();
+        cardLayout.show(this, IMMUNE_SYSTEM);
+    }
