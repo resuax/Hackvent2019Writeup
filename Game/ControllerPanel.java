@@ -403,3 +403,69 @@ class ControllerPanel extends JPanel implements KeyListener
                 moveEnemiesBack(enemies);
             }
     }
+
+    public void handleIncorrectAnswer(final int questionIndex)
+    {
+        world.numberOfErrors++;
+        if (world.numberOfErrors == world.maxNumberOfErrors)
+            {
+                System.out.println("Game over");
+                resetGame();
+                switchToGameOverPanel();
+            }
+        else
+            {
+                stopAllTimers();
+                incorrectPanel.switchToIncorrectPanel(questionIndex);
+                playBase.updateErrors();
+                cardLayout.show(this, INCORRECT_PANELS);
+            }
+    }
+
+    public void moveEnemiesBack(final ArrayList<Enemy> enemies)
+    {
+        int spacesMovedBack = 4;
+        for (Enemy enemy : enemies)
+            {
+                enemy.y -= spacesMovedBack;
+            }
+    }
+
+    public ArrayList<Integer> vacantPositions(World world)
+    {
+        int firstRow = 0;
+        ArrayList<Integer> columns = new ArrayList<Integer>();
+        ArrayList<Integer> vacantColumns = new ArrayList<Integer>();
+        ArrayList<Enemy> enemies = world.enemies;
+        for (Enemy enemy : enemies)
+            {
+                if (enemy.y == firstRow)
+                    {
+                        columns.add(enemy.x);
+                    }
+            }
+
+        for (int i = 0; i < world.columns; i++)
+            {
+                boolean enemyFound = false;
+                if (!columns.contains(i))
+                    {
+                        vacantColumns.add(i);
+                    }
+            }
+        return vacantColumns;
+    }
+
+    public boolean checkForMatchingEnemies(Enemy enemyToCheck,
+                                           ArrayList<Enemy> enemies)
+    {
+        for (Enemy enemy : enemies)
+            {
+                if (enemy.x == enemyToCheck.x && enemy.y == enemyToCheck.y)
+                    {
+                        return true;
+                    }
+            }
+        return false;
+    }
+}
