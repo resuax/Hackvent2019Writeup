@@ -335,3 +335,71 @@ class ControllerPanel extends JPanel implements KeyListener
     {
         ArrayList<Enemy> enemies = world.enemies;
         ArrayList<Bullet> bullets = world.bullets;
+        ArrayList<Enemy> hitEnemies = new ArrayList<Enemy>();
+        ArrayList<Bullet> hitBullets = new ArrayList<Bullet>();
+        ArrayList<Explosion> explosions = world.explosions;
+        for (Enemy enemy : enemies)
+            {
+                for (Bullet bullet : bullets)
+                    {
+                        if (enemy.x == bullet.x && enemy.y == bullet.y)
+                            {
+                                hitBullets.add(bullet);
+                                hitEnemies.add(enemy);
+                                Explosion explosion 
+                                    = new Explosion(enemy.x, enemy.y);
+                                explosions.add(explosion);
+                            }
+                    }
+            }
+        enemies.removeAll(hitEnemies);
+        bullets.removeAll(hitBullets);
+    }
+
+    public void handleEnemyPlayerCollisions(World world)
+    {
+        ArrayList<Enemy> enemies = world.enemies;
+        Player player = world.player;
+        for (Enemy enemy : enemies)
+            {
+                if (enemy.x == player.x && enemy.y == player.y)
+                    {
+                        switchToQuestionsPanel();
+                        moveEnemiesBack(enemies);
+                    }
+            }
+    }
+
+    public void handleCompletedExplosions(World world)
+    {
+        ArrayList<Explosion> completedExplosions = new ArrayList<Explosion>();
+        ArrayList<Explosion> explosions = world.explosions;
+        for (Explosion explosion : explosions)
+            {
+                if (explosion.completedLoop == true)
+                    {
+                        completedExplosions.add(explosion);
+                    }
+            }
+        explosions.removeAll(completedExplosions);
+    }
+
+    public void handleEnemiesOffScreen(World world)
+    {
+        int lastRow = world.rows-1;
+        ArrayList<Enemy> enemies = world.enemies;
+        boolean enemyOffScreen = false;
+        for (Enemy enemy : enemies)
+            {
+                if (enemy.y > lastRow)
+                    {
+                        enemyOffScreen = true;
+                        break;
+                    }
+            }
+        if (enemyOffScreen)
+            {
+                switchToQuestionsPanel();
+                moveEnemiesBack(enemies);
+            }
+    }
