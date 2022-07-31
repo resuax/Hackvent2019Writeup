@@ -6,4 +6,8 @@ import javax.swing.JLabel;
 import java.awt.GridLayout;
 import java.awt.Color;
 import java.awt.CardLayout;
-impor
+import java.util.ArrayList;
+
+class CorrectAnswerPanel extends JPanel
+{
+    final CardLayou
