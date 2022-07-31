@@ -12,4 +12,6 @@ class CorrectAnswerPanel extends JPanel
 {
     final CardLayout correctAnswersPanelCardLayout;
     final JPanel correctAnswersPanel;
-    final Arra
+    final ArrayList<QuestionAnswer> questionsAndAnswers;
+
+    public CorrectAnswerPanel(final ControllerPan
