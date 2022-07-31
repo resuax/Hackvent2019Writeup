@@ -10,4 +10,6 @@ import java.util.ArrayList;
 
 class CorrectAnswerPanel extends JPanel
 {
-    final CardLayou
+    final CardLayout correctAnswersPanelCardLayout;
+    final JPanel correctAnswersPanel;
+    final Arra
