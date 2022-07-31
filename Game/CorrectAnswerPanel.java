@@ -14,4 +14,5 @@ class CorrectAnswerPanel extends JPanel
     final JPanel correctAnswersPanel;
     final ArrayList<QuestionAnswer> questionsAndAnswers;
 
-    public CorrectAnswerPanel(final ControllerPan
+    public CorrectAnswerPanel(final ControllerPanel controllerPanel,
+                              ArrayList<QuestionAnswer> _questionsAndAnswe
