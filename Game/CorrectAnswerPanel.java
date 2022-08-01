@@ -15,4 +15,7 @@ class CorrectAnswerPanel extends JPanel
     final ArrayList<QuestionAnswer> questionsAndAnswers;
 
     public CorrectAnswerPanel(final ControllerPanel controllerPanel,
-                              ArrayList<QuestionAnswer> _questionsAndAnswe
+                              ArrayList<QuestionAnswer> _questionsAndAnswers)
+    {
+        setLayout(new BorderLayout());
+        questionsAndAnswers = _q
