@@ -18,4 +18,6 @@ class CorrectAnswerPanel extends JPanel
                               ArrayList<QuestionAnswer> _questionsAndAnswers)
     {
         setLayout(new BorderLayout());
-        questionsAndAnswers = _q
+        questionsAndAnswers = _questionsAndAnswers;
+        correctAnswersPanelCardLayout = new CardLayout();
+        c
