@@ -20,4 +20,6 @@ class CorrectAnswerPanel extends JPanel
         setLayout(new BorderLayout());
         questionsAndAnswers = _questionsAndAnswers;
         correctAnswersPanelCardLayout = new CardLayout();
-        c
+        correctAnswersPanel = new JPanel(correctAnswersPanelCardLayout);
+
+        for (int ii = 0; ii < qu
