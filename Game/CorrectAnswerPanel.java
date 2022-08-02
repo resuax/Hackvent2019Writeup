@@ -25,4 +25,6 @@ class CorrectAnswerPanel extends JPanel
         for (int ii = 0; ii < questionsAndAnswers.size(); ii++)
             {
 
-                QuestionAnswer qa = questionsA
+                QuestionAnswer qa = questionsAndAnswers.get(ii);
+                JPanel correctAnswerPanel = new JPanel();
+                
