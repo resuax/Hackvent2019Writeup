@@ -22,4 +22,7 @@ class CorrectAnswerPanel extends JPanel
         correctAnswersPanelCardLayout = new CardLayout();
         correctAnswersPanel = new JPanel(correctAnswersPanelCardLayout);
 
-        for (int ii = 0; ii < qu
+        for (int ii = 0; ii < questionsAndAnswers.size(); ii++)
+            {
+
+                QuestionAnswer qa = questionsA
