@@ -27,4 +27,6 @@ class CorrectAnswerPanel extends JPanel
 
                 QuestionAnswer qa = questionsAndAnswers.get(ii);
                 JPanel correctAnswerPanel = new JPanel();
+                correctAnswerPanel.setBackground(Color.green);
+                int rows = 3;
                 
