@@ -29,4 +29,6 @@ class CorrectAnswerPanel extends JPanel
                 JPanel correctAnswerPanel = new JPanel();
                 correctAnswerPanel.setBackground(Color.green);
                 int rows = 3;
-                
+                int columns = 1;
+                correctAnswerPanel.setLayout(new GridLayout(rows, columns));
+ 
