@@ -31,4 +31,5 @@ class CorrectAnswerPanel extends JPanel
                 int rows = 3;
                 int columns = 1;
                 correctAnswerPanel.setLayout(new GridLayout(rows, columns));
- 
+                correctAnswerPanel
+                    .add(new JLabel("You are correct
