@@ -34,4 +34,6 @@ class CorrectAnswerPanel extends JPanel
                 correctAnswerPanel
                     .add(new JLabel("You are correct!", SwingConstants.CENTER));
                 if (qa.correctAnswer() == null)
-        
+                    {
+                        System.out.println("The correct answer is null.");
+                 
