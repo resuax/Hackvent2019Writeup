@@ -38,4 +38,6 @@ class CorrectAnswerPanel extends JPanel
                         System.out.println("The correct answer is null.");
                         Thread.dumpStack();
                         System.exit(-1);
-              
+                    }
+                JTextArea answer = new JTextArea(qa.answerLong);
+               
