@@ -40,4 +40,6 @@ class CorrectAnswerPanel extends JPanel
                         System.exit(-1);
                     }
                 JTextArea answer = new JTextArea(qa.answerLong);
-               
+                answer.setLineWrap(true);
+                answer.setOpaque(false);
+                answer.
