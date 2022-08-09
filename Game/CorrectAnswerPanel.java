@@ -44,4 +44,5 @@ class CorrectAnswerPanel extends JPanel
                 answer.setOpaque(false);
                 answer.setWrapStyleWord(true);
                 correctAnswerPanel.add(answer);
-             
+                correctAnswerPanel.add(new PlayButton(controllerPanel));
+                cor
