@@ -49,4 +49,7 @@ class CorrectAnswerPanel extends JPanel
                                         "Correct Answer " + ii);
             }
         add(correctAnswersPanel, BorderLayout.CENTER);
-        ad
+        add(new MainMenuButton(controllerPanel), BorderLayout.LINE_START);
+    }
+
+    public
