@@ -46,4 +46,7 @@ class CorrectAnswerPanel extends JPanel
                 correctAnswerPanel.add(answer);
                 correctAnswerPanel.add(new PlayButton(controllerPanel));
                 correctAnswersPanel.add(correctAnswerPanel,
-                                        "Correct 
+                                        "Correct Answer " + ii);
+            }
+        add(correctAnswersPanel, BorderLayout.CENTER);
+        ad
