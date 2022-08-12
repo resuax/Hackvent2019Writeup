@@ -52,4 +52,6 @@ class CorrectAnswerPanel extends JPanel
         add(new MainMenuButton(controllerPanel), BorderLayout.LINE_START);
     }
 
-    public
+    public void switchToCorrectPanel(final int questionNumber)
+    {
+        correctAnswersPanelCa
