@@ -5,4 +5,8 @@ class Enemy extends GameObject
 {
     static int speciesCount = 6;
 
-    public 
+    public Enemy(int column)
+    {
+        super("germs.gif", column, 0);
+
+        int fram
