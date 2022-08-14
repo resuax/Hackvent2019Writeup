@@ -12,4 +12,6 @@ class Enemy extends GameObject
         int frameWidth = 40;
         int frameHeight = 60;
         int xOffset = 80;
-        int colorPicker = (int)(Math.r
+        int colorPicker = (int)(Math.random() * speciesCount);
+        frameCount = 4;
+        for (int ii = 0; ii < frame
