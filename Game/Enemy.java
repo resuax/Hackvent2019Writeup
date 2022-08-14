@@ -14,4 +14,7 @@ class Enemy extends GameObject
         int xOffset = 80;
         int colorPicker = (int)(Math.random() * speciesCount);
         frameCount = 4;
-        for (int ii = 0; ii < frame
+        for (int ii = 0; ii < frameCount; ii++)
+            {
+                BufferedImage frame
+                    = picOfObje
