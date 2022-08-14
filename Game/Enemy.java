@@ -9,4 +9,7 @@ class Enemy extends GameObject
     {
         super("germs.gif", column, 0);
 
-        int fram
+        int frameWidth = 40;
+        int frameHeight = 60;
+        int xOffset = 80;
+        int colorPicker = (int)(Math.r
