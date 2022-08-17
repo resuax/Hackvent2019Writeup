@@ -18,4 +18,6 @@ class Enemy extends GameObject
             {
                 BufferedImage frame
                     = picOfObject.getSubimage(ii * frameWidth + xOffset,
-                                            
+                                              colorPicker * frameHeight,
+                                              frameWidth, frameHeight);
+           
