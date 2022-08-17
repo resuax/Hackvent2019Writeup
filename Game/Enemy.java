@@ -20,4 +20,7 @@ class Enemy extends GameObject
                     = picOfObject.getSubimage(ii * frameWidth + xOffset,
                                               colorPicker * frameHeight,
                                               frameWidth, frameHeight);
-           
+                animation.add(frame);
+            }
+    }
+}
