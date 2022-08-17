@@ -17,4 +17,5 @@ class Enemy extends GameObject
         for (int ii = 0; ii < frameCount; ii++)
             {
                 BufferedImage frame
-                    = picOfObje
+                    = picOfObject.getSubimage(ii * frameWidth + xOffset,
+                                            
