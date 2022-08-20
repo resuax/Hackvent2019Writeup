@@ -4,4 +4,9 @@ import javax.swing.JButton;
 
 class ExitButton extends JButton
 {
-    public ExitButton(final ControllerPanel controllerPane
+    public ExitButton(final ControllerPanel controllerPanel)
+    {
+        super("Exit!");
+	addActionListener(new ActionListener()
+	    {
+		public void actionPerforme
