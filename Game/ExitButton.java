@@ -9,4 +9,10 @@ class ExitButton extends JButton
         super("Exit!");
 	addActionListener(new ActionListener()
 	    {
-		public void actionPerforme
+		public void actionPerformed(ActionEvent ae)
+		{
+		    System.exit(0);
+		}
+	    }); 
+    }
+}
