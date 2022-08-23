@@ -10,4 +10,7 @@ class Explosion extends GameObject
         super("explosion.png", _x, _y);
 
         int frameWidth = 39;
-        int fra
+        int frameHeight = 39;
+        int xOffset = 0;
+        int yOffset = frameHeight * 3;
+        
