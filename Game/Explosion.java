@@ -13,4 +13,7 @@ class Explosion extends GameObject
         int frameHeight = 39;
         int xOffset = 0;
         int yOffset = frameHeight * 3;
-        
+        frameCount = 13;
+        for (int ii = 0; ii < frameCount; ii++)
+            {
+                Buffere
