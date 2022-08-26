@@ -20,4 +20,10 @@ class Explosion extends GameObject
                     = picOfObject.getSubimage(ii * frameWidth + xOffset,
                                               yOffset,
                                               frameWidth, frameHeight);
-                animat
+                animation.add(frame);
+            }
+    }
+
+    public void updateFrame()
+    {
+        int frameIn
