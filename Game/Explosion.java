@@ -17,4 +17,6 @@ class Explosion extends GameObject
         for (int ii = 0; ii < frameCount; ii++)
             {
                 BufferedImage frame
-                    = picOfObject.getSubimage(ii * frameWidth + xOffse
+                    = picOfObject.getSubimage(ii * frameWidth + xOffset,
+                                              yOffset,
+                        
