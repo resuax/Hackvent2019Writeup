@@ -26,4 +26,6 @@ class Explosion extends GameObject
 
     public void updateFrame()
     {
-        int frameIn
+        int frameIndexIncrementCount = 1;
+        int initialFrame = 0;
+        frameIndex = (frameIndex + frameI
