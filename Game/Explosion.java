@@ -30,4 +30,8 @@ class Explosion extends GameObject
         int initialFrame = 0;
         frameIndex = (frameIndex + frameIndexIncrementCount) % frameCount;
         if (frameIndex == initialFrame)
-           
+            {
+                completedLoop = true;
+            }
+    }
+}
