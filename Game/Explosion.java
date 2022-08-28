@@ -28,4 +28,6 @@ class Explosion extends GameObject
     {
         int frameIndexIncrementCount = 1;
         int initialFrame = 0;
-        frameIndex = (frameIndex + frameI
+        frameIndex = (frameIndex + frameIndexIncrementCount) % frameCount;
+        if (frameIndex == initialFrame)
+           
