@@ -6,4 +6,6 @@ import java.io.File;
 
 class GameObject
 {
-    public ArrayList<BufferedImage> animation =
+    public ArrayList<BufferedImage> animation = new ArrayList<BufferedImage>();
+    BufferedImage picOfObject;
+    public Integer x
