@@ -13,4 +13,8 @@ class GameObject
     int frameCount;
     int numberOfSpacesToMove = 1;
 
-    
+    public GameObject(String picFile, int _x, int _y)
+    {
+        picOfObject = null;
+        try
+            {
