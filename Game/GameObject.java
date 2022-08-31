@@ -23,4 +23,7 @@ class GameObject
         catch (IOException ioe)
             {
                 System.err.println("Pic could not be loaded.");
+                ioe.printStackTrace(System.err);
+                System.exit(-1);
+            }
     
