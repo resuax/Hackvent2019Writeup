@@ -26,4 +26,10 @@ class GameObject
                 ioe.printStackTrace(System.err);
                 System.exit(-1);
             }
-    
+        x = _x;
+        y = _y;
+    }
+
+    public void updateFrame()
+    {
+        int frameIndexIncrementCount
