@@ -20,4 +20,7 @@ class GameObject
             {
                 picOfObject = ImageIO.read(new File(picFile));
             }
-        cat
+        catch (IOException ioe)
+            {
+                System.err.println("Pic could not be loaded.");
+    
