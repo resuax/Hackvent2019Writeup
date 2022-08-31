@@ -18,3 +18,6 @@ class GameObject
         picOfObject = null;
         try
             {
+                picOfObject = ImageIO.read(new File(picFile));
+            }
+        cat
