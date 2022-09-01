@@ -32,4 +32,5 @@ class GameObject
 
     public void updateFrame()
     {
-        int frameIndexIncrementCount
+        int frameIndexIncrementCount = 1;
+        frameIndex = (frameIndex + frameIndexIncrementCount) %
