@@ -38,4 +38,9 @@ class GameObject
 
     public BufferedImage getImage()
     {
-        return animation.g
+        return animation.get(frameIndex);
+    }
+
+    public void moveUp()
+    {
+        y -= numberOfSpacesToMove
