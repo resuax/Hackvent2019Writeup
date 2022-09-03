@@ -43,4 +43,12 @@ class GameObject
 
     public void moveUp()
     {
-        y -= numberOfSpacesToMove
+        y -= numberOfSpacesToMove;
+    }
+
+    public void moveDown()
+    {
+        y += numberOfSpacesToMove;
+    }
+
+    public void moveR
