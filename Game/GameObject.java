@@ -33,4 +33,9 @@ class GameObject
     public void updateFrame()
     {
         int frameIndexIncrementCount = 1;
-        frameIndex = (frameIndex + frameIndexIncrementCount) %
+        frameIndex = (frameIndex + frameIndexIncrementCount) % frameCount;
+    }
+
+    public BufferedImage getImage()
+    {
+        return animation.g
