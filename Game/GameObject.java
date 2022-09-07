@@ -51,4 +51,8 @@ class GameObject
         y += numberOfSpacesToMove;
     }
 
-    public void moveR
+    public void moveRight()
+    {
+        x += numberOfSpacesToMove;
+        if (x > 9)
+            
