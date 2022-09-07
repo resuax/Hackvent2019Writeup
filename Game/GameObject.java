@@ -55,4 +55,11 @@ class GameObject
     {
         x += numberOfSpacesToMove;
         if (x > 9)
-            
+            {
+                x = 0;
+            }
+    }
+
+    public void moveLeft()
+    {
+        //N
