@@ -64,4 +64,8 @@ class GameObject
     {
         //Note: Modulo in Java (with negative numbers) is different
         //Ex: -15 % 10 == -5
+        //Ex: -1 % 10 == -1
+        x -= numberOfSpacesToMove;
+        if (x < 0)
+            {
         
