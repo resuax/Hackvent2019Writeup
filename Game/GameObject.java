@@ -62,4 +62,6 @@ class GameObject
 
     public void moveLeft()
     {
-        //N
+        //Note: Modulo in Java (with negative numbers) is different
+        //Ex: -15 % 10 == -5
+        
