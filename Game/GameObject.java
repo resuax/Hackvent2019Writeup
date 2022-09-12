@@ -78,4 +78,8 @@ class GameObject
     }
     private int getHeight()
     {
-        return getImage().g
+        return getImage().getHeight();
+    }
+    public int getXAlignment(int width)
+    {
+        return (width - ge
