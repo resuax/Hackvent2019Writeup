@@ -68,4 +68,10 @@ class GameObject
         x -= numberOfSpacesToMove;
         if (x < 0)
             {
-        
+                x = 9;
+            }
+    }
+
+    private int getWidth()
+    {
+        return get
