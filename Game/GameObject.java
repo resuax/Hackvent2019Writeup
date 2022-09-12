@@ -74,4 +74,8 @@ class GameObject
 
     private int getWidth()
     {
-        return get
+        return getImage().getWidth();
+    }
+    private int getHeight()
+    {
+        return getImage().g
