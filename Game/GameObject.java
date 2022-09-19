@@ -82,4 +82,8 @@ class GameObject
     }
     public int getXAlignment(int width)
     {
-        return (width - ge
+        return (width - getWidth())/2;
+    }
+    public int getYAlignment(int height)
+    {
+        return (height -
