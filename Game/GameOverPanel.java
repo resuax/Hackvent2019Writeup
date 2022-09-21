@@ -4,4 +4,6 @@ import javax.swing.JLabel;
 import java.awt.Color;
 import java.awt.GridLayout;
 
-class GameOverPan
+class GameOverPanel extends JPanel
+{
+    public GameOverPanel(final ControllerPanel controllerPan
