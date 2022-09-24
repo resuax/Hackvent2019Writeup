@@ -14,4 +14,6 @@ class GameOverPanel extends JPanel
         setLayout(new GridLayout(rows, columns));
         add(new JLabel("Game Over!", SwingConstants.CENTER));
         add(new MainMenuButton(controllerPanel));
+        add(new PlayButton(controllerPanel));
+        add(new ExitButton(controllerPanel));
    
