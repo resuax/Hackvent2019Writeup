@@ -6,4 +6,8 @@ import java.awt.GridLayout;
 
 class GameOverPanel extends JPanel
 {
-    public GameOverPanel(final ControllerPanel controllerPan
+    public GameOverPanel(final ControllerPanel controllerPanel)
+    {
+        setBackground(Color.BLUE);
+        int rows = 4;
+        int columns
