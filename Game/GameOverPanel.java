@@ -10,4 +10,6 @@ class GameOverPanel extends JPanel
     {
         setBackground(Color.BLUE);
         int rows = 4;
-        int columns
+        int columns = 1;
+        setLayout(new GridLayout(rows, columns));
+        add(new JLabel("Gam
