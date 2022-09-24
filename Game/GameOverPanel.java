@@ -12,4 +12,6 @@ class GameOverPanel extends JPanel
         int rows = 4;
         int columns = 1;
         setLayout(new GridLayout(rows, columns));
-        add(new JLabel("Gam
+        add(new JLabel("Game Over!", SwingConstants.CENTER));
+        add(new MainMenuButton(controllerPanel));
+   
