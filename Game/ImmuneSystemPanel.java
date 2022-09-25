@@ -1,3 +1,6 @@
 class ImmuneSystemPanel extends InformationPanel
 {
-    public ImmuneSystemPanel(fin
+    public ImmuneSystemPanel(final ControllerPanel controllerPanel)
+    {
+        super(controllerPanel, "immuneSystemFacts.txt", "Immune System Panel");
+ 
