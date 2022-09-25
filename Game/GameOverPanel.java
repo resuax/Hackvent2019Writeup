@@ -16,4 +16,5 @@ class GameOverPanel extends JPanel
         add(new MainMenuButton(controllerPanel));
         add(new PlayButton(controllerPanel));
         add(new ExitButton(controllerPanel));
-   
+    }
+}
