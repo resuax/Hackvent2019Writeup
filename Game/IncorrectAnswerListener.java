@@ -5,4 +5,6 @@ class IncorrectAnswerListener implements ActionListener
 {
     int questionIndex;
 
-    pu
+    public IncorrectAnswerListener(int _questionIndex)
+    {
+	questionIndex = _questionIndex;
