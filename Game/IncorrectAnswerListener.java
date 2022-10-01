@@ -8,3 +8,6 @@ class IncorrectAnswerListener implements ActionListener
     public IncorrectAnswerListener(int _questionIndex)
     {
 	questionIndex = _questionIndex;
+    }
+    public void actionPerformed(ActionEvent ae){}
+}
