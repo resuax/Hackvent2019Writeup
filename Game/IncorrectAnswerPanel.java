@@ -13,4 +13,6 @@ class IncorrectAnswerPanel extends JPanel
     final CardLayout incorrectAnswersPanelCardLayout;
     final JPanel incorrectAnswersPanel;
     final ArrayList<QuestionAnswer> questionsAndAnswers;
-    final ControllerPanel
+    final ControllerPanel controllerPanel;
+
+    public IncorrectAnswerPanel(final ControllerPanel _controllerPanel
