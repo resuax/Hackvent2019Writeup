@@ -10,4 +10,5 @@ import java.util.ArrayList;
 
 class IncorrectAnswerPanel extends JPanel
 {
-    f
+    final CardLayout incorrectAnswersPanelCardLayout;
+    final JPanel incorrect
