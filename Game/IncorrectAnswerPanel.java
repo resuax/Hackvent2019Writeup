@@ -5,4 +5,9 @@ import javax.swing.SwingConstants;
 import javax.swing.JLabel;
 import java.awt.GridLayout;
 import java.awt.Color;
-import j
+import java.awt.CardLayout;
+import java.util.ArrayList;
+
+class IncorrectAnswerPanel extends JPanel
+{
+    f
