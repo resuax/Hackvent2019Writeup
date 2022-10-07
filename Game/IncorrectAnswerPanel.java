@@ -18,4 +18,6 @@ class IncorrectAnswerPanel extends JPanel
     public IncorrectAnswerPanel(final ControllerPanel _controllerPanel,
                                 ArrayList<QuestionAnswer> _questionsAndAnswers)
     {
-     
+        setLayout(new BorderLayout());
+        questionsAndAnswers = _questionsAndAnswers;
+       
