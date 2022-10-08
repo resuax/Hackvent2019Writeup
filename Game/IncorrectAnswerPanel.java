@@ -20,4 +20,6 @@ class IncorrectAnswerPanel extends JPanel
     {
         setLayout(new BorderLayout());
         questionsAndAnswers = _questionsAndAnswers;
-       
+        controllerPanel = _controllerPanel;
+        incorrectAnswersPanelCardLayout = new CardLayout();
+  
