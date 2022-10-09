@@ -24,4 +24,6 @@ class IncorrectAnswerPanel extends JPanel
         incorrectAnswersPanelCardLayout = new CardLayout();
         incorrectAnswersPanel = new JPanel(incorrectAnswersPanelCardLayout);
 
-        fo
+        for (int ii = 0; ii < questionsAndAnswers.size(); ii++)
+            {
+                Ques
