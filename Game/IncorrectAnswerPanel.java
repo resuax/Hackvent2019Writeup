@@ -33,4 +33,5 @@ class IncorrectAnswerPanel extends JPanel
                 int columns = 1;
                 incorrectAnswerPanel.setLayout(new GridLayout(rows, columns));
                 incorrectAnswerPanel
-        
+                    .add(new JLabel("You are incorrect!", SwingConstants.CENTER));
+         
