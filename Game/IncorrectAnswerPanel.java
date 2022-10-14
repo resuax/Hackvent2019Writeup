@@ -31,4 +31,6 @@ class IncorrectAnswerPanel extends JPanel
                 incorrectAnswerPanel.setBackground(Color.red);
                 int rows = 3;
                 int columns = 1;
-                incorrectAnswerPa
+                incorrectAnswerPanel.setLayout(new GridLayout(rows, columns));
+                incorrectAnswerPanel
+        
