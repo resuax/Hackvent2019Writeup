@@ -29,4 +29,6 @@ class IncorrectAnswerPanel extends JPanel
                 QuestionAnswer qa = questionsAndAnswers.get(ii);
                 JPanel incorrectAnswerPanel = new JPanel();
                 incorrectAnswerPanel.setBackground(Color.red);
-           
+                int rows = 3;
+                int columns = 1;
+                incorrectAnswerPa
