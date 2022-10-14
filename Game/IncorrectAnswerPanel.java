@@ -26,4 +26,5 @@ class IncorrectAnswerPanel extends JPanel
 
         for (int ii = 0; ii < questionsAndAnswers.size(); ii++)
             {
-                Ques
+                QuestionAnswer qa = questionsAndAnswers.get(ii);
+                JPanel incorrectAnswerPanel = new
