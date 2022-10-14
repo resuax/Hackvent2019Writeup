@@ -36,4 +36,5 @@ class IncorrectAnswerPanel extends JPanel
                     .add(new JLabel("You are incorrect!", SwingConstants.CENTER));
                 if (qa.correctAnswer() == null)
                     {
-                        Syst
+                        System.out.println("The correct answer is null.");
+                        Thread.dumpStack(
