@@ -37,4 +37,7 @@ class IncorrectAnswerPanel extends JPanel
                 if (qa.correctAnswer() == null)
                     {
                         System.out.println("The correct answer is null.");
-                        Thread.dumpStack(
+                        Thread.dumpStack();
+                        System.exit(-1);
+                    }
+                JTextArea answ
