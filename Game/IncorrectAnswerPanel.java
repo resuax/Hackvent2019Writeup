@@ -40,4 +40,6 @@ class IncorrectAnswerPanel extends JPanel
                         Thread.dumpStack();
                         System.exit(-1);
                     }
-                JTextArea answ
+                JTextArea answer = new JTextArea(qa.answerLong);
+                answer.setLineWrap(true);
+       
