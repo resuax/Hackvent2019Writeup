@@ -44,4 +44,5 @@ class IncorrectAnswerPanel extends JPanel
                 answer.setLineWrap(true);
                 answer.setOpaque(false);
                 answer.setWrapStyleWord(true);
-          
+                incorrectAnswerPanel.add(answer);
+                incorrectAnswerPanel.add(new Pl
