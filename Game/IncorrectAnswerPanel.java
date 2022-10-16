@@ -42,4 +42,6 @@ class IncorrectAnswerPanel extends JPanel
                     }
                 JTextArea answer = new JTextArea(qa.answerLong);
                 answer.setLineWrap(true);
-       
+                answer.setOpaque(false);
+                answer.setWrapStyleWord(true);
+          
