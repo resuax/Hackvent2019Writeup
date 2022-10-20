@@ -49,4 +49,5 @@ class IncorrectAnswerPanel extends JPanel
                 incorrectAnswersPanel.add(incorrectAnswerPanel,
                                           "Incorrect Answer " + ii);
             }
-   
+        add(incorrectAnswersPanel, BorderLayout.CENTER);
+        add(new MainMenuButton(contr
