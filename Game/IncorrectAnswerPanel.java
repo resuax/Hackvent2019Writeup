@@ -45,4 +45,5 @@ class IncorrectAnswerPanel extends JPanel
                 answer.setOpaque(false);
                 answer.setWrapStyleWord(true);
                 incorrectAnswerPanel.add(answer);
-                incorrectAnswerPanel.add(new Pl
+                incorrectAnswerPanel.add(new PlayButton(controllerPanel));
+                incorrectAnswersPanel.add(incorrectA
