@@ -50,4 +50,7 @@ class IncorrectAnswerPanel extends JPanel
                                           "Incorrect Answer " + ii);
             }
         add(incorrectAnswersPanel, BorderLayout.CENTER);
-        add(new MainMenuButton(contr
+        add(new MainMenuButton(controllerPanel), BorderLayout.LINE_START);
+    }
+
+    public void switchToIncorrectPanel(final int q
