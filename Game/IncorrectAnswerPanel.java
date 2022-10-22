@@ -53,4 +53,7 @@ class IncorrectAnswerPanel extends JPanel
         add(new MainMenuButton(controllerPanel), BorderLayout.LINE_START);
     }
 
-    public void switchToIncorrectPanel(final int q
+    public void switchToIncorrectPanel(final int questionNumber)
+    {
+        incorrectAnswersPanelCardLayout.show(incorrectAnswersPanel,
+ 
