@@ -56,4 +56,7 @@ class IncorrectAnswerPanel extends JPanel
     public void switchToIncorrectPanel(final int questionNumber)
     {
         incorrectAnswersPanelCardLayout.show(incorrectAnswersPanel,
- 
+                                             "Incorrect Answer " + questionNumber);
+    }
+
+}
