@@ -9,4 +9,6 @@ import javax.swing.JLabel;
 
 class InformationPanel extends JPanel
 {
-    String
+    String content;
+    public InformationPanel(final ControllerPanel controllerPanel,
+         
