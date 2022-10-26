@@ -13,4 +13,5 @@ class InformationPanel extends JPanel
     public InformationPanel(final ControllerPanel controllerPanel,
                             String textFileName, String panelName)
     {
-        
+        setLayout(new BorderLayout());
+        add(new JLabel(panelName), BorderLa
