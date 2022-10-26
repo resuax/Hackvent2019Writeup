@@ -22,3 +22,6 @@ class InformationPanel extends JPanel
                 content = new Scanner(new File(textFileName),
                                       "UTF-8").useDelimiter("\\A").next();
             }
+        catch (FileNotFoundException fnfe)
+            {
+                fnfe.printStac
