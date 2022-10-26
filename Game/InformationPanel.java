@@ -24,4 +24,8 @@ class InformationPanel extends JPanel
             }
         catch (FileNotFoundException fnfe)
             {
-                fnfe.printStac
+                fnfe.printStackTrace();
+                System.exit(-1);
+            }
+
+        JTextArea infoTextA
