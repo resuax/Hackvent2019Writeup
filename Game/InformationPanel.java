@@ -28,4 +28,6 @@ class InformationPanel extends JPanel
                 System.exit(-1);
             }
 
-        JTextArea infoTextA
+        JTextArea infoTextArea = new JTextArea(content);
+        infoTextArea.setEditable(false);
+        infoTex
