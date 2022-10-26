@@ -11,4 +11,6 @@ class InformationPanel extends JPanel
 {
     String content;
     public InformationPanel(final ControllerPanel controllerPanel,
-         
+                            String textFileName, String panelName)
+    {
+        
