@@ -30,4 +30,7 @@ class InformationPanel extends JPanel
 
         JTextArea infoTextArea = new JTextArea(content);
         infoTextArea.setEditable(false);
-        infoTex
+        infoTextArea.setLineWrap(true);
+        infoTextArea.setWrapStyleWord(true);
+        int top = 60;
+    
