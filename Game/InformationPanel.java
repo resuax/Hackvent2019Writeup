@@ -20,4 +20,5 @@ class InformationPanel extends JPanel
         try
             {
                 content = new Scanner(new File(textFileName),
-       
+                                      "UTF-8").useDelimiter("\\A").next();
+            }
