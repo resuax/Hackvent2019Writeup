@@ -17,4 +17,7 @@ class InformationPanel extends JPanel
         add(new JLabel(panelName), BorderLayout.PAGE_START);
         add(new MainMenuButton(controllerPanel), BorderLayout.LINE_START);
 
-     
+        try
+            {
+                content = new Scanner(new File(textFileName),
+       
