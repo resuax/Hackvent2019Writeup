@@ -14,4 +14,7 @@ class InformationPanel extends JPanel
                             String textFileName, String panelName)
     {
         setLayout(new BorderLayout());
-        add(new JLabel(panelName), BorderLa
+        add(new JLabel(panelName), BorderLayout.PAGE_START);
+        add(new MainMenuButton(controllerPanel), BorderLayout.LINE_START);
+
+     
