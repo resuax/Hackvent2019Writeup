@@ -33,4 +33,7 @@ class InformationPanel extends JPanel
         infoTextArea.setLineWrap(true);
         infoTextArea.setWrapStyleWord(true);
         int top = 60;
-    
+        int left = 100;
+        int bottom = 50;
+        int right = 100;
+        infoText
