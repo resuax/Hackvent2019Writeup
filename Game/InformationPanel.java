@@ -37,4 +37,6 @@ class InformationPanel extends JPanel
         int bottom = 50;
         int right = 100;
         infoTextArea.setBorder(new EmptyBorder(top, left, bottom, right));
-        add(infoTextArea, 
+        add(infoTextArea, BorderLayout.CENTER);
+    }
+}
