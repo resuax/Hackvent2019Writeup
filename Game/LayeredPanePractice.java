@@ -7,4 +7,7 @@ import java.awt.Color;
 
 public class LayeredPanePractice extends JLayeredPane
 {
-    public LayeredPanePract
+    public LayeredPanePractice()
+    {
+	setBackground(Color.ORANGE);
+        setPreferredSize(new Dimension(400, 400));
