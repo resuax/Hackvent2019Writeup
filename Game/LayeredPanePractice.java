@@ -16,4 +16,7 @@ public class LayeredPanePractice extends JLayeredPane
 	label.setBackground(Color.RED);
 	label.setForeground(Color.BLACK);
 	label.setBounds(100, 100, 100, 100);
-        add(label, 
+        add(label, new Integer(0));
+	JLabel label2 = new JLabel("World");
+	label2.setOpaque(true);
+	label2.
