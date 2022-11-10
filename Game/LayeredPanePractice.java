@@ -26,3 +26,6 @@ public class LayeredPanePractice extends JLayeredPane
     }
 
     public static void makeFrame()
+    {
+	JFrame frame = new JFrame("Frame");
+	frame.setDefaultCloseOperation(JFrame.EXIT_O
