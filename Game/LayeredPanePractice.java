@@ -13,4 +13,7 @@ public class LayeredPanePractice extends JLayeredPane
         setPreferredSize(new Dimension(400, 400));
         JLabel label = new JLabel("Hello");
 	label.setOpaque(true);
-	label.setBackground(Color.RED
+	label.setBackground(Color.RED);
+	label.setForeground(Color.BLACK);
+	label.setBounds(100, 100, 100, 100);
+        add(label, 
