@@ -31,4 +31,6 @@ public class LayeredPanePractice extends JLayeredPane
 	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	frame.setSize(600, 600);
 	LayeredPanePractice tester = new LayeredPanePractice();
-	test
+	tester.setOpaque(true); //important
+	frame.setContentPane(tester); //look into
+	frame
