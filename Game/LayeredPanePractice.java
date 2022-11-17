@@ -33,4 +33,8 @@ public class LayeredPanePractice extends JLayeredPane
 	LayeredPanePractice tester = new LayeredPanePractice();
 	tester.setOpaque(true); //important
 	frame.setContentPane(tester); //look into
-	frame
+	frame.setResizable(false);
+	frame.setVisible(true);
+    }
+	
+    public static void main(Stri
