@@ -37,4 +37,8 @@ public class LayeredPanePractice extends JLayeredPane
 	frame.setVisible(true);
     }
 	
-    public static void main(Stri
+    public static void main(String [] args)
+    {
+	makeFrame();	
+    }
+}
