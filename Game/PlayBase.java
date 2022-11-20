@@ -8,4 +8,6 @@ class PlayBase extends JLayeredPane
 {
     PlayPanel playPanel;
     PausePanel pausePanel;
-  
+    NumberOfErrorsPanel errorsPanel;
+    JPanel borderPanel;
+    int background = 0
