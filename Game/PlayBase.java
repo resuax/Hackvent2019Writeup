@@ -10,4 +10,8 @@ class PlayBase extends JLayeredPane
     PausePanel pausePanel;
     NumberOfErrorsPanel errorsPanel;
     JPanel borderPanel;
-    int background = 0
+    int background = 0;
+    int base = 1;
+    int foreground = 2;
+
+    public PlayBase(final ControllerPanel contr
