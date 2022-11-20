@@ -14,4 +14,7 @@ class PlayBase extends JLayeredPane
     int base = 1;
     int foreground = 2;
 
-    public PlayBase(final ControllerPanel contr
+    public PlayBase(final ControllerPanel controllerPanel, final  World world)
+    {
+        borderPanel = new BorderPanel();
+        int
