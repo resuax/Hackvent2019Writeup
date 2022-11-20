@@ -19,4 +19,5 @@ class PlayBase extends JLayeredPane
         borderPanel = new BorderPanel();
         int bottom, right, left, top;
         bottom = right = left = top = 40;
-     
+        borderPanel.setBorder(new EmptyBorder(top,left,bottom,right));
+        borderP
