@@ -17,4 +17,6 @@ class PlayBase extends JLayeredPane
     public PlayBase(final ControllerPanel controllerPanel, final  World world)
     {
         borderPanel = new BorderPanel();
-        int
+        int bottom, right, left, top;
+        bottom = right = left = top = 40;
+     
