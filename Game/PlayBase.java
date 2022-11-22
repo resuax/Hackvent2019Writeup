@@ -26,4 +26,5 @@ class PlayBase extends JLayeredPane
         int playX, playY;
         playX = playY = 0;
         borderPanel.setBounds(playX, playY, 
-    
+                              world.pixelWidth, world.pixelHeight);
+        add(borderPanel, new
