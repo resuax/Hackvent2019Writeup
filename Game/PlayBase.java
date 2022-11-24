@@ -30,4 +30,6 @@ class PlayBase extends JLayeredPane
         add(borderPanel, new Integer(base));
 
         pausePanel = new PausePanel(controllerPanel);
-        int pauseX, pauseY, pauseWid
+        int pauseX, pauseY, pauseWidth, pauseHeight;
+        pauseX = pauseY = pauseWidth = pauseHeight = 200;
+        pause
