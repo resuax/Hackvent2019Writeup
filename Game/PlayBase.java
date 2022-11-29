@@ -36,4 +36,7 @@ class PlayBase extends JLayeredPane
         add(pausePanel, new Integer(background));
 
         errorsPanel = new NumberOfErrorsPanel(world);
-        int erro
+        int errorsX = 0;
+        int errorsY = 540;
+        int errorsWidth = 50;
+        int errorsHeight =
