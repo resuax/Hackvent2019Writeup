@@ -41,4 +41,9 @@ class PlayBase extends JLayeredPane
         int errorsWidth = 50;
         int errorsHeight = 40;
         errorsPanel.setBounds(errorsX, errorsY, errorsWidth, errorsHeight);
-     
+        add(errorsPanel, new Integer(foreground));
+    }
+
+    public void pause()
+    {
+        setLay
