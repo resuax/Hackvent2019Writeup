@@ -46,4 +46,9 @@ class PlayBase extends JLayeredPane
 
     public void pause()
     {
-        setLay
+        setLayer(pausePanel, base);
+        setLayer(borderPanel, background);
+    }
+
+    public void unpause()
+  
