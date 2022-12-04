@@ -56,4 +56,9 @@ class PlayBase extends JLayeredPane
         setLayer(pausePanel, background);
     }
 
-    pub
+    public void updateErrors()
+    {
+        errorsPanel.updateText();
+    }
+}
+
