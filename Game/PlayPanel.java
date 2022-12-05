@@ -36,3 +36,49 @@ class PlayPanel extends JPanel
                     gridToPixelX(playah.x, getWidth()) + playahX,
                     gridToPixelY(playah.y, getHeight()) + playahY,
                     this);
+
+         for (Enemy enemy : enemies)
+            {
+                int enemyX = enemy.getXAlignment(getWidth()/world.columns);
+                int enemyY = enemy.getYAlignment(getHeight()/world.rows);
+                g.drawImage(enemy.getImage(),
+                            gridToPixelX(enemy.x, getWidth()) + enemyX,
+                            gridToPixelY(enemy.y, getHeight()) + enemyY,
+                            this);
+            }
+
+        for (Bullet bullet : bullets)
+            { 
+                int bulletX = bullet.getXAlignment(getWidth()/world.columns);
+                int bulletY = bullet.getYAlignment(getHeight()/world.rows);
+                g.drawImage(bullet.getImage(),
+                            gridToPixelX(bullet.x, getWidth()) + bulletX,
+                            gridToPixelY(bullet.y, getHeight()) + bulletY,
+                            this);
+            }
+
+        for (Explosion explosion : explosions)
+            {
+                int explosionX 
+                    = explosion.getXAlignment(getWidth()/world.columns);
+                int explosionY
+                    = explosion.getYAlignment(getHeight()/world.rows);
+                g.drawImage(explosion.getImage(),
+                            gridToPixelX(explosion.x, getWidth()) 
+                            + explosionX,
+                            gridToPixelY(explosion.y, getHeight()) 
+                            + explosionY,
+                            this);
+            }
+    }
+
+    public Integer gridToPixelX(Integer gridX, Integer width)
+    {
+        return gridX * (width/world.columns);
+    }
+
+    public Integer gridToPixelY(Integer gridY, Integer height)
+    {
+        return gridY * (height/world.rows);
+    }
+}
