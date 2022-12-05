@@ -4,4 +4,7 @@ import javax.swing.JButton;
 
 class PlayButton extends JButton // Creates JButtons to play game.
 {
-    public PlayButto
+    public PlayButton(final ControllerPanel controllerPanel)
+    {
+	super("Play!");
+	addActionListener(new A
