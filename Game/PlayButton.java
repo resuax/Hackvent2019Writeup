@@ -7,4 +7,8 @@ class PlayButton extends JButton // Creates JButtons to play game.
     public PlayButton(final ControllerPanel controllerPanel)
     {
 	super("Play!");
-	addActionListener(new A
+	addActionListener(new ActionListener()
+	    {
+		public void actionPerformed(ActionEvent ae)
+		{
+		    controller
