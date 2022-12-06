@@ -12,3 +12,15 @@ class QuestionAnswer
 	answers = _answers;
         answerLong = _answerLong;
     }
+    public Answer correctAnswer()
+    {
+	for (Answer a: answers)
+	    {
+		if (a.correct)
+		    {
+			return a;
+		    }
+	    }
+	return null;
+    }
+}
