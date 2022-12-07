@@ -8,4 +8,9 @@ import java.awt.event.ActionListener;
 import java.awt.GridLayout;
 import javax.swing.ButtonGroup;
 import javax.swing.JLabel;
-import java.awt.CardLayou
+import java.awt.CardLayout;
+import java.util.ArrayList;
+
+class QuestionPanel extends JPanel
+{
+    final CardLayout que
