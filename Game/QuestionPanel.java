@@ -13,4 +13,6 @@ import java.util.ArrayList;
 
 class QuestionPanel extends JPanel
 {
-    final CardLayout que
+    final CardLayout questionsPanelCardLayout;
+    final JPanel questionsPanel;
+    final ArrayList<Questi
