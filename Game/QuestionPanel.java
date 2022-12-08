@@ -15,4 +15,7 @@ class QuestionPanel extends JPanel
 {
     final CardLayout questionsPanelCardLayout;
     final JPanel questionsPanel;
-    final ArrayList<Questi
+    final ArrayList<QuestionAnswer> questionsAndAnswers;
+
+    public QuestionPanel(final ControllerPanel controllerPanel,
+     
