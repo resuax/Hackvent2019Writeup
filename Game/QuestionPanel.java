@@ -19,4 +19,8 @@ class QuestionPanel extends JPanel
 
     public QuestionPanel(final ControllerPanel controllerPanel,
                          final ArrayList<QuestionAnswer> _questionsAndAnswers,
-                 
+                         World world)
+    {
+
+        setLayout(new BorderLayout());
+        questions
