@@ -18,4 +18,5 @@ class QuestionPanel extends JPanel
     final ArrayList<QuestionAnswer> questionsAndAnswers;
 
     public QuestionPanel(final ControllerPanel controllerPanel,
-     
+                         final ArrayList<QuestionAnswer> _questionsAndAnswers,
+                 
