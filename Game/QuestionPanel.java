@@ -23,4 +23,5 @@ class QuestionPanel extends JPanel
     {
 
         setLayout(new BorderLayout());
-        questions
+        questionsPanelCardLayout = new CardLayout();
+        questionsPanel = new JPanel(questionsPan
