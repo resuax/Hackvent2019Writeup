@@ -28,4 +28,7 @@ class QuestionPanel extends JPanel
         questionsAndAnswers = _questionsAndAnswers;
 
         final ButtonGroup answerGroup = new ButtonGroup();
-        for (int ii = 0; ii < questionsAndAnswers
+        for (int ii = 0; ii < questionsAndAnswers.size(); ii++)
+            {
+                final Integer iii = ii;
+          
