@@ -27,4 +27,5 @@ class QuestionPanel extends JPanel
         questionsPanel = new JPanel(questionsPanelCardLayout);
         questionsAndAnswers = _questionsAndAnswers;
 
-        final ButtonGroup
+        final ButtonGroup answerGroup = new ButtonGroup();
+        for (int ii = 0; ii < questionsAndAnswers
