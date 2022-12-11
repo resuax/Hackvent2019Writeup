@@ -31,4 +31,5 @@ class QuestionPanel extends JPanel
         for (int ii = 0; ii < questionsAndAnswers.size(); ii++)
             {
                 final Integer iii = ii;
-          
+                QuestionAnswer qa = questionsAndAnswers.get(ii);
+                JPanel questionPan
