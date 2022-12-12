@@ -36,4 +36,5 @@ class QuestionPanel extends JPanel
                 // 2 is for the first two rows containing the question and title
                 int rows = 2 + qa.answers.size();
                 int columns = 1;
-            
+                questionPanel.setLayout(new GridLayout(rows, columns));
+                questionP
