@@ -34,4 +34,6 @@ class QuestionPanel extends JPanel
                 QuestionAnswer qa = questionsAndAnswers.get(ii);
                 JPanel questionPanel = new JPanel();
                 // 2 is for the first two rows containing the question and title
- 
+                int rows = 2 + qa.answers.size();
+                int columns = 1;
+            
