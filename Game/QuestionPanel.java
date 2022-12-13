@@ -40,4 +40,6 @@ class QuestionPanel extends JPanel
                 questionPanel
                     .add(new JLabel("Question Panel", SwingConstants.CENTER));
                 JTextArea questionArea = new JTextArea(qa.question);
-                questionArea.setL
+                questionArea.setLineWrap(true);
+                questionArea.setWrapStyleWord(true);
+                que
