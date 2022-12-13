@@ -39,4 +39,5 @@ class QuestionPanel extends JPanel
                 questionPanel.setLayout(new GridLayout(rows, columns));
                 questionPanel
                     .add(new JLabel("Question Panel", SwingConstants.CENTER));
-       
+                JTextArea questionArea = new JTextArea(qa.question);
+                questionArea.setL
