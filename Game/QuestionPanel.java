@@ -42,4 +42,6 @@ class QuestionPanel extends JPanel
                 JTextArea questionArea = new JTextArea(qa.question);
                 questionArea.setLineWrap(true);
                 questionArea.setWrapStyleWord(true);
-                que
+                questionPanel.add(questionArea);
+
+                for (final Answer answer : qa.an
