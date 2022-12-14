@@ -44,4 +44,7 @@ class QuestionPanel extends JPanel
                 questionArea.setWrapStyleWord(true);
                 questionPanel.add(questionArea);
 
-                for (final Answer answer : qa.an
+                for (final Answer answer : qa.answers)
+                    {
+                        JRadioButton optionButton
+          
