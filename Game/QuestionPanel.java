@@ -47,4 +47,5 @@ class QuestionPanel extends JPanel
                 for (final Answer answer : qa.answers)
                     {
                         JRadioButton optionButton
-          
+                            = new JRadioButton(answer.text);
+                        optionButton.addA
