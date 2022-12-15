@@ -51,4 +51,6 @@ class QuestionPanel extends JPanel
                         optionButton.addActionListener(new ActionListener()
                             {
                                 public void actionPerformed(ActionEvent ae)
-                           
+                                {
+                                    if (answer.correct)
+                                
