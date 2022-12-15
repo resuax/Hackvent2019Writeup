@@ -48,4 +48,6 @@ class QuestionPanel extends JPanel
                     {
                         JRadioButton optionButton
                             = new JRadioButton(answer.text);
-                        optionButton.addA
+                        optionButton.addActionListener(new ActionListener()
+                            {
+            
