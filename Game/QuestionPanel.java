@@ -53,4 +53,5 @@ class QuestionPanel extends JPanel
                                 public void actionPerformed(ActionEvent ae)
                                 {
                                     if (answer.correct)
-                                
+                                        {
+                                            controllerPanel.switchToCorrectAnswerPanel
