@@ -54,4 +54,6 @@ class QuestionPanel extends JPanel
                                 {
                                     if (answer.correct)
                                         {
-                                            controllerPanel.switchToCorrectAnswerPanel
+                                            controllerPanel.switchToCorrectAnswerPanel(iii);
+                                        }
+                                  
