@@ -56,4 +56,6 @@ class QuestionPanel extends JPanel
                                         {
                                             controllerPanel.switchToCorrectAnswerPanel(iii);
                                         }
-                                  
+                                    else
+                                        {
+                                     
