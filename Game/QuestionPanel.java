@@ -58,4 +58,5 @@ class QuestionPanel extends JPanel
                                         }
                                     else
                                         {
-                                     
+                                            controllerPanel.handleIncorrectAnswer(iii);
+                          
