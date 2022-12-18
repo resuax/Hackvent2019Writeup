@@ -63,4 +63,5 @@ class QuestionPanel extends JPanel
                                     answerGroup.clearSelection();
                                 }
                             });
-                        a
+                        answerGroup.add(optionButton);
+                        questionPanel.add
