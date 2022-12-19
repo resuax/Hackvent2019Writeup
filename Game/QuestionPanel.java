@@ -70,4 +70,9 @@ class QuestionPanel extends JPanel
             }
 
         add(questionsPanel, BorderLayout.CENTER);
-        add(new MainMenuButton(co
+        add(new MainMenuButton(controllerPanel),  BorderLayout.LINE_START);
+    }
+
+    public void showRandomQuestion()
+    {
+        in
