@@ -66,4 +66,8 @@ class QuestionPanel extends JPanel
                         answerGroup.add(optionButton);
                         questionPanel.add(optionButton);
                     }
-                questionsPanel.add(questionPanel, "Question " + i
+                questionsPanel.add(questionPanel, "Question " + ii);
+            }
+
+        add(questionsPanel, BorderLayout.CENTER);
+        add(new MainMenuButton(co
