@@ -64,4 +64,6 @@ class QuestionPanel extends JPanel
                                 }
                             });
                         answerGroup.add(optionButton);
-                        questionPanel.add
+                        questionPanel.add(optionButton);
+                    }
+                questionsPanel.add(questionPanel, "Question " + i
