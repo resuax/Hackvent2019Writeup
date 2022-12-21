@@ -77,4 +77,6 @@ class QuestionPanel extends JPanel
     {
         int questionToShow = (int)(Math.random() * questionsAndAnswers.size());
         questionsPanelCardLayout.show(questionsPanel,
-                                      "Question 
+                                      "Question " + questionToShow);
+    }
+}
