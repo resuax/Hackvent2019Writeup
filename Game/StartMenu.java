@@ -21,4 +21,7 @@ class StartMenu extends JPanel
     JButton exitButton;
     Color color0, color1;
 
-    public StartMenu(final ControllerPane
+    public StartMenu(final ControllerPanel controllerPanel)
+    {
+        setLayout(new BorderLayout());
+        int startMenuTop, startMe
