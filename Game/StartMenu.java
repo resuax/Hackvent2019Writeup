@@ -15,4 +15,7 @@ class StartMenu extends JPanel
 {
     JLabel titleBar;
     JButton playButton;
-    JButton
+    JButton howToPlayButton;
+    JButton immuneSystemFactsButton;
+    JButton questionAnswerButton;
+  
