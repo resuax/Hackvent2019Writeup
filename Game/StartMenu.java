@@ -18,4 +18,7 @@ class StartMenu extends JPanel
     JButton howToPlayButton;
     JButton immuneSystemFactsButton;
     JButton questionAnswerButton;
-  
+    JButton exitButton;
+    Color color0, color1;
+
+    public StartMenu(final ControllerPane
