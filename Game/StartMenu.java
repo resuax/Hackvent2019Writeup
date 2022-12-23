@@ -11,4 +11,8 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import java.awt.Font;
 
-class StartM
+class StartMenu extends JPanel
+{
+    JLabel titleBar;
+    JButton playButton;
+    JButton
