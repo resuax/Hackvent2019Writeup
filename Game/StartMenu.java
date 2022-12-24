@@ -24,4 +24,6 @@ class StartMenu extends JPanel
     public StartMenu(final ControllerPanel controllerPanel)
     {
         setLayout(new BorderLayout());
-        int startMenuTop, startMe
+        int startMenuTop, startMenuLeft, startMenuBottom, startMenuRight;
+        startMenuTop = 60;
+        startMenuLeft = startMe
