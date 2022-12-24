@@ -29,4 +29,6 @@ class StartMenu extends JPanel
         startMenuLeft = startMenuRight = 30;
         startMenuBottom = 50;
         setBorder(new EmptyBorder(startMenuTop, startMenuLeft,
-                                  sta
+                                  startMenuBottom, startMenuRight));
+        color0 = Color.BLUE;
+        color1 = Color.BL
