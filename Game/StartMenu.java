@@ -35,3 +35,7 @@ class StartMenu extends JPanel
 
         JPanel allTheButtons = new JPanel();
         int rows = 5;
+        int columns = 1;
+        int horizontalGap = 0;
+        int verticalGap = 30;
+        Gri
