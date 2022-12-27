@@ -39,4 +39,6 @@ class StartMenu extends JPanel
         int horizontalGap = 0;
         int verticalGap = 30;
         GridLayout startMenuGridLayout
-            = new GridLayout(rows, columns, horizontalGap, vertical
+            = new GridLayout(rows, columns, horizontalGap, verticalGap);
+        allTheButtons.setLayout(startMenuGridLayout);
+        allTheButt
