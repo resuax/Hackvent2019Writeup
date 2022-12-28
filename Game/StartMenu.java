@@ -46,4 +46,6 @@ class StartMenu extends JPanel
         buttonTop = buttonBottom = 30;
         buttonLeft = buttonRight = 100;
         allTheButtons.setBorder(new EmptyBorder(buttonTop, buttonLeft,
-                                  
+                                                buttonBottom, buttonRight));
+
+        titleBar = new JLabel("ANATOMY ARCADE", S
