@@ -44,4 +44,6 @@ class StartMenu extends JPanel
         allTheButtons.setOpaque(false);
         int buttonTop, buttonLeft, buttonBottom, buttonRight;
         buttonTop = buttonBottom = 30;
-        buttonLeft = buttonRight =
+        buttonLeft = buttonRight = 100;
+        allTheButtons.setBorder(new EmptyBorder(buttonTop, buttonLeft,
+                                  
