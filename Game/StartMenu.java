@@ -42,4 +42,6 @@ class StartMenu extends JPanel
             = new GridLayout(rows, columns, horizontalGap, verticalGap);
         allTheButtons.setLayout(startMenuGridLayout);
         allTheButtons.setOpaque(false);
-        int buttonTop, buttonLeft, buttonBottom, bu
+        int buttonTop, buttonLeft, buttonBottom, buttonRight;
+        buttonTop = buttonBottom = 30;
+        buttonLeft = buttonRight =
