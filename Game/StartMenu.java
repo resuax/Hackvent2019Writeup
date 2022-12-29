@@ -48,4 +48,6 @@ class StartMenu extends JPanel
         allTheButtons.setBorder(new EmptyBorder(buttonTop, buttonLeft,
                                                 buttonBottom, buttonRight));
 
-        titleBar = new JLabel("ANATOMY ARCADE", S
+        titleBar = new JLabel("ANATOMY ARCADE", SwingConstants.CENTER);
+        int fontSize = 50;
+        titleBar.setFont(new Font("Arial", Font.B
