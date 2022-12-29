@@ -53,4 +53,7 @@ class StartMenu extends JPanel
         titleBar.setFont(new Font("Arial", Font.BOLD, fontSize));
         titleBar.setForeground(Color.white);
 
-        playButton = new J
+        playButton = new JButton("Play!");
+        playButton.addActionListener(new ActionListener()
+            {
+                public
