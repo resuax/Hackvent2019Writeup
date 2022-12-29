@@ -56,4 +56,6 @@ class StartMenu extends JPanel
         playButton = new JButton("Play!");
         playButton.addActionListener(new ActionListener()
             {
-                public
+                public void actionPerformed(ActionEvent ae)
+                {
+                    controllerPanel.s
