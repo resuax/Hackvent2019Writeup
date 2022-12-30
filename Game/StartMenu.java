@@ -62,4 +62,5 @@ class StartMenu extends JPanel
                 }
             });
 
-        howToPlayButton =
+        howToPlayButton = new JButton("How to Play!");
+        howToPlayButton.addActionListener(new ActionListen
