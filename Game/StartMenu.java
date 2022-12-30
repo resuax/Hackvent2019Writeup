@@ -67,4 +67,6 @@ class StartMenu extends JPanel
             {
                 public void actionPerformed(ActionEvent ae)
                 {
-  
+                    controllerPanel.switchToHowToPlayPanel();
+                }
+            }
