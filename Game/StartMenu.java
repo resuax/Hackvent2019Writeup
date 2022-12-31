@@ -76,4 +76,8 @@ class StartMenu extends JPanel
             {
                 public void actionPerformed(ActionEvent ae)
                 {
-                    controllerP
+                    controllerPanel.switchToImmunePanel();
+                }
+            });
+
+        questionAnswerButton
