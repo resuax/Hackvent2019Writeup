@@ -69,4 +69,7 @@ class StartMenu extends JPanel
                 {
                     controllerPanel.switchToHowToPlayPanel();
                 }
-            }
+            });
+
+        immuneSystemFactsButton = new JButton("The Immune System!");
+        im
