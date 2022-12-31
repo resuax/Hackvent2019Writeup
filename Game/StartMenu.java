@@ -74,4 +74,6 @@ class StartMenu extends JPanel
         immuneSystemFactsButton = new JButton("The Immune System!");
         immuneSystemFactsButton.addActionListener(new ActionListener()
             {
-                publi
+                public void actionPerformed(ActionEvent ae)
+                {
+                    controllerP
