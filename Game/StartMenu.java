@@ -80,4 +80,5 @@ class StartMenu extends JPanel
                 }
             });
 
-        questionAnswerButton
+        questionAnswerButton = new JButton("Get Question!");
+        questionAnswerButton.addActionListener(new
