@@ -85,4 +85,9 @@ class StartMenu extends JPanel
             {
                 public void actionPerformed(ActionEvent ae)
                 {
-                    controllerPanel.switchToQuestionsPan
+                    controllerPanel.switchToQuestionsPanel();
+                }
+            });
+
+        exitButton = new JButton("Exit!");
+        e
