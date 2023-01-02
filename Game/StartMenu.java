@@ -83,4 +83,6 @@ class StartMenu extends JPanel
         questionAnswerButton = new JButton("Get Question!");
         questionAnswerButton.addActionListener(new ActionListener()
             {
-                public void actionPerformed(Ac
+                public void actionPerformed(ActionEvent ae)
+                {
+                    controllerPanel.switchToQuestionsPan
