@@ -90,4 +90,6 @@ class StartMenu extends JPanel
             });
 
         exitButton = new JButton("Exit!");
-        e
+        exitButton.addActionListener(new ActionListener()
+            {
+       
