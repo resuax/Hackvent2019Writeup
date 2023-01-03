@@ -94,4 +94,8 @@ class StartMenu extends JPanel
             {
                 public void actionPerformed(ActionEvent ae)
                 {
-                    System.
+                    System.exit(0);
+                }
+            });
+
+        add(titleBar, BorderLayout.NORTH);
