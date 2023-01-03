@@ -99,3 +99,6 @@ class StartMenu extends JPanel
             });
 
         add(titleBar, BorderLayout.NORTH);
+        allTheButtons.add(playButton);
+        allTheButtons.add(howToPlayButton);
+   
