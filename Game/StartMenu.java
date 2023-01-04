@@ -102,4 +102,6 @@ class StartMenu extends JPanel
         allTheButtons.add(playButton);
         allTheButtons.add(howToPlayButton);
         allTheButtons.add(immuneSystemFactsButton);
-        allTheButtons.a
+        allTheButtons.add(questionAnswerButton);
+        allTheButtons.add(exitButton);
+        add(allT
