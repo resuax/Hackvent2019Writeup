@@ -111,3 +111,6 @@ class StartMenu extends JPanel
     {
         super.paintComponent(g);
         int width = getWidth(); //windowWidth
+        int height = getHeight(); //windowHeight
+        final int ROWS = 8;
+        final int
