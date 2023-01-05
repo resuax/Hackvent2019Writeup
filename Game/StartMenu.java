@@ -109,4 +109,5 @@ class StartMenu extends JPanel
 
     public void paintComponent(Graphics g)
     {
-        super.p
+        super.paintComponent(g);
+        int width = getWidth(); //windowWidth
