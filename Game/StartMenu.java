@@ -104,4 +104,9 @@ class StartMenu extends JPanel
         allTheButtons.add(immuneSystemFactsButton);
         allTheButtons.add(questionAnswerButton);
         allTheButtons.add(exitButton);
-        add(allT
+        add(allTheButtons, BorderLayout.CENTER);
+    }
+
+    public void paintComponent(Graphics g)
+    {
+        super.p
