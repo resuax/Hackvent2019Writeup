@@ -113,4 +113,8 @@ class StartMenu extends JPanel
         int width = getWidth(); //windowWidth
         int height = getHeight(); //windowHeight
         final int ROWS = 8;
-        final int
+        final int COLUMNS = 8;
+
+        for (int row = 0; row < ROWS; row++)
+            {
+           
