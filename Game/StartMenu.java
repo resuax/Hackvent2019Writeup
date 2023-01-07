@@ -120,4 +120,6 @@ class StartMenu extends JPanel
                 for (int column = 0; column < COLUMNS; column++)
                     {
                         // Makes a checkerboard pattern
-                        if ((row % 2) == (c
+                        if ((row % 2) == (column % 2))
+                            {
+                                g.setColor(co
