@@ -125,4 +125,6 @@ class StartMenu extends JPanel
                                 g.setColor(color0);
                             }
                         else
-                 
+                            {
+                                g.setColor(color1);
+                   
