@@ -127,4 +127,5 @@ class StartMenu extends JPanel
                         else
                             {
                                 g.setColor(color1);
-                   
+                            }
+                        //handles white gaps left by rounding on 
