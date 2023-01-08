@@ -130,4 +130,5 @@ class StartMenu extends JPanel
                             }
                         //handles white gaps left by rounding on startmenu
                         int upperLeftCurrentX =  column * width/COLUMNS;
-              
+                        int upperLeftNextX = (column+1) * width/COLUMNS;
+                        int u
