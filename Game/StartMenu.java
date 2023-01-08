@@ -128,4 +128,6 @@ class StartMenu extends JPanel
                             {
                                 g.setColor(color1);
                             }
-                        //handles white gaps left by rounding on 
+                        //handles white gaps left by rounding on startmenu
+                        int upperLeftCurrentX =  column * width/COLUMNS;
+              
