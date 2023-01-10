@@ -132,4 +132,6 @@ class StartMenu extends JPanel
                         int upperLeftCurrentX =  column * width/COLUMNS;
                         int upperLeftNextX = (column+1) * width/COLUMNS;
                         int upperLeftCurrentY = row * height / ROWS;
-                        int upperLeftNextY = (ro
+                        int upperLeftNextY = (row+1) * height / ROWS;
+                        int rectangleWidth
+                            = upperLeft
