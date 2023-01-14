@@ -148,4 +148,8 @@ class StartMenu extends JPanel
 
     public void switchColors()
     {
-        Color t
+        Color temp = color0;
+        color0 = color1;
+        color1 = temp;
+    }
+}
