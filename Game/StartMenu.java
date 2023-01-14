@@ -140,4 +140,6 @@ class StartMenu extends JPanel
 
                         g.fillRect(column * width / COLUMNS,
                                    row * height / ROWS,
-                        
+                                   rectangleWidth,
+                                   rectangleHeight);
+        
