@@ -138,4 +138,6 @@ class StartMenu extends JPanel
                         int rectangleHeight
                             = upperLeftNextY - upperLeftCurrentY;
 
-                        g.fillRect(column * wi
+                        g.fillRect(column * width / COLUMNS,
+                                   row * height / ROWS,
+                        
