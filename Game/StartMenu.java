@@ -142,4 +142,10 @@ class StartMenu extends JPanel
                                    row * height / ROWS,
                                    rectangleWidth,
                                    rectangleHeight);
-        
+                    }
+            }
+    }
+
+    public void switchColors()
+    {
+        Color t
