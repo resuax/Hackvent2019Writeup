@@ -26,3 +26,31 @@ class World
         explosions = _explosions;
         columns = rows = 10;
         player = new Player(this);
+        pause = _pause;
+        numberOfErrors = 0;
+        maxNumberOfErrors = _maxNumberOfErrors;
+        pixelHeight = _pixelHeight;
+        pixelWidth = _pixelWidth;
+    }
+
+    public void updateFrame()
+    {
+        player.updateFrame();
+        for (Enemy enemy : enemies)
+            {
+                enemy.updateFrame();
+            }
+        for (Bullet bullet : bullets)
+            {
+                bullet.updateFrame();
+            }
+    }
+
+    public void updateExplosions()
+    {
+        for (Explosion explosion : explosions)
+            {
+                explosion.updateFrame();
+            }
+    }
+}
