@@ -32,3 +32,92 @@ Then you're sent back to the game from AnswerScreen.
 question that you must answer. Then you informed whether
 you're in/correct.
 -Title
+-Start out at title screen
+-Four main button to navigate through program
+-Added JPanels (blank) that will contain stuff for program
+-Fill in How To Play Screen
+-Put immune system facts on immune systen screen
+-Background, rapidly moving
+-Question panels, make a bunch of cards from questions
+-use arrays EVERYWHERE [DONE]
+-unify methods for keeping track of BufferedImages [DONE]
+-remove single BufferedImage argument from GameObject class [DONE]
+-remove excessive indentation
+-classes in 'wbcGamePanel' need to be unnested
+-edit germs.gif so purple/orange/black germs are next to eachother
+-replace magic numbers with constants
+-give variables (cg, sa, mg) more descriptive names or remove them
+-split code into seperate files
+-edit variable 'counter' (772)
+-bounds should go from 0 to n-1
+-rename 'objectExplosion/Bullets/Cells' ArrayLists
+-rename drawing (pics of user) to something more "meaningful"
+-find a way to remove 'whenToDrawBullets'
+-keep BufferedImage names consistent (image vs img)
+-edit 'for loop' boundaries and step sizes
+-remove 'cells' ArrayList
+-change the listener classes later so they're not nested
+-improve parameters in TitlePanel class
+-too many arguments
+-learn what the heck "implement and extend" mean
+-figure out 'CreateGerm, MoveGerm' dependency cycle (ex: on timers)
+-dont use 'mistakesMade' (increment it) in paintComponent
+-Change int to ArrayList<Integer> (questionPicker, mistakesMade) and get them to run
+-do same with booleans
+-Read in files containing answers/questions and create data structures to pass to classes which specifically handle those things (correct answers and incorrect answers
+-Bunch of errors when clicking correct JRadioButton
+-variable ii might be used too much
+-Fix reliance of questionAndAnswers on CorrectAnswerScreen
+-JRadioButton shows result when clicked (correct/incorrect) by informing the ScreenHolder that it needs to display a certain correct/incorrect answer
+-Answer is displaying oddly on JTextArea (single line of text)
+-Complete Correct/IncorrectAnswerPanel classes
+-Reset selection of JRadioButton after finding out correct answer
+-Use keyboard keys to move user left and right
+-'a' move left
+-'d' move right
+-Place enemy on board
+-Move getX/YPixel methods into view from Player class
+-draw enemies and bullets so that they can overlap when at same position
+-Fix problem with backgroundHeight/Width variables in gridToPixelX/Y
+-Draws user and enemy in top left corner of screen
+-Fix overlap of enemies on eachother
+-Move to question screen when enemy is on user/off screen
+-Move enemies back a few spaces at the same time
+-Have generic method to check/react to move player/enemy/bullet makes
+-World variable for GameOjects?
+-Move enemies back when they hit player (not just after leaving screen)
+-Pause game when key 'P' is clicked - show JButton to exit game
+-Use Boolean to know if game should be paused or unpaused
+-Reset lists/variables in World after game is finished
+-Finish JLayeredPane for pausign game
+-Create demo class with bare minimum requirement for JLayeredPane to practice/learn how to use it
+-Handle in/correct answers in ScreenHolder (controller)
+-Handle number of errors in ScreenHolder (controller)
+-have jbuttons that allow navigation when game is paused
+-to main menu and to exit game
+-Make the PausePanel only show up when game is paused
+-Currently visible at all times
+-Animations
+-player
+-fix: only animates when moved with keyboard
+-explosions
+-enemies
+-"Dancing" as they move down (flipping between 4 pics)
+-Don't create enemies when not on play screen
+-Move down the screen
+-bullets
+-"Dancing" as they move up (flipping between 4 pics)
+-Move up the screen
+-timers
+-Stop relevant timers when 'P' is pressed (pause)
+-Stop revelant timers when certain # of enemies leave screen
+-make explosions animate faster
+-enemies
+-Spawn enemies less often
+-background
+-Checkerboard colors keep switching
+-PausePanel problems
+-Returning to MainMenu and then Play Screen unpauses timers but PausePanel remains
+-Create more "deterministic"- rather than probabilistic - method to add enemies
+-While game is paused, enemies continue spawning (fix so they dont)
+-Create a stacktrace when exceptions are thrown (Scanners)
