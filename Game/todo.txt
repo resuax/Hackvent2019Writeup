@@ -1,0 +1,34 @@
+
+[TODO after v1.0]
+-PlayPanel.java paintComponent
+     -Put getHeight/world.rows and getWidth/world.columns calculations in
+     constructor for GameObject as they are always the same to do the alignment
+     -Eventually create an ArrayList of GameObjects that stores all the objects
+     of the game (Enemies, Explosions, Bullets, etc..) and is used in a for loop
+     to draw all of these stored objects using the 4 alignment methods of
+     GameObject, which will elimiate all of the repeated code used to draw the
+     various objects of the game
+-Make it so that doing rm *.class and javac *.java works without producing a
+bunch of errors
+-Fix bug: can go to main menu and "Get Question" and answer incorrectly several
+times and get game over screen when not actually playing the game
+-what are the differences between instructions.txt and howToPlay.txt?
+      -get rid of instructions.txt
+-CorrectAnswerPanel and IncorrectAnswerPanel are almost exactly the same
+      -Creat GameObject like class?
+
+[DOING]:
+
+[DONE - original todo.txt file]:
+**establish consistency with names for Main/Start menu**
+Then you're sent back to the game from AnswerScreen.
+-If you get 2 errors, the game ends
+-In/Correct Answer screens with buttons leading back to game
+-Play button to start playing game
+-Control a white blood cell
+-Shoot at germs with bullets
+-Draw explosions when enemies have been hit
+-If they get past you, you will be prompted with a
+question that you must answer. Then you informed whether
+you're in/correct.
+-Title
