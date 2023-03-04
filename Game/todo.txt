@@ -121,3 +121,84 @@ you're in/correct.
 -Create more "deterministic"- rather than probabilistic - method to add enemies
 -While game is paused, enemies continue spawning (fix so they dont)
 -Create a stacktrace when exceptions are thrown (Scanners)
+-Maybe display number of errors made by user
+-Don't use System.exit(0) when quitting game
+-Use controller to find frame and then quit?
+-remove white lines on main menu that divide screen
+-Change names from "-Screen" to "-Panel"
+-Break apart code into different files
+-Go back to play screen from answer screen
+-Randomize answer choices so first option isn't always correct
+-Fix magic numbers and replace them with named constants?!?!
+-do something about similiarity between bullet/player/explosion/enemy classes
+    -frameIndexIncrementCount
+    -Review descendents of GameObject
+-Add constants to the World
+-Rows/Columns
+-Combine handleCollisons and handleEnemiesOffScreen
+-move user is less steps of code
+-Creating a minimum viable test (SSCCE) to determine why Player is off screen for danny
+-things needed to create error:
+        -window (jframe), player bufferedimage, position at bottom left corner
+Fix player position as it is currently half way off screen (for daniel)
+     -Player.java
+        -Looked at every animation frames so that they looked the same
+     -PlayPanel.java
+        -Checked getWidth(), getHeight(), world.rows, world.columns, 
+                 playah.x, and playah.y
+                 -Checked gridToPixelX() and gridToPixelY()
+-Fix placement of user which is currently slightly off the PlayPanel
+-Fix user movement wrapping around when moving off screen
+-Fix?: World depends on Player and Player depends on World
+       -Only have one columns variable throughout code
+NOTE: PlayBase is using a width and height of zero due to using mainFrame's
+      getHeight and getWidth methods.
+ -Fixing error when PlayPanel is not drawn when setPreferredSize and pack are 
+ used, however the size of the Frame/ContentPane is correct
+        -Adding to SSCCE to mirror ControllerPanel to find which Panel is 
+        causing the error of the PlayPanel not being drawn
+        -Works fine (PlayScreen drawn and size is correct) when setBounds,
+        setPreferredSize, and pack are used but you should be able to do 
+        that with only setPreferredSize and pack 
+-Find out why Enemy animation will not run using GameObject updateFrame method
+      -Only works with its own updateFrame method unlike Bullet & Player
+-Move getImage() methods into GameObject from Player/Bullet/Explosion/Enemy
+-Add smaller pane to PlayPanel where Enemy will actually be drawn. This is
+   to create a border so that the inversion variables of PlayPanel are no 
+   longer needed
+-Introduced more magic numbers in Playbase when adding playpanel
+   -Remove magic numbers in creating border 
+-Adding an EmptyBorder to borderPanel and then adding playPanel to it
+        -Trying to fix problems with showing pausepanel and order of layers
+-Give borderpanel background and remove/make transparent background on 
+playpanel
+-Make BorderPanel its own class and use it in PlayBase
+      -Right now it's at the bottom of PlayPanel.java
+-GridToPixelX needs to be fixed as the left hand side of PlayPanel takes up
+more space than the right hand side
+-Alter drawing of enemy, explosion, player, and bullet so that they don't need
+constants added to their x values ("inversions")
+          -Use the height/width of the columns and rows to determine where to
+          to draw so everything is center alligned
+-Fix allignment of images so that the right border is not larger than the left
+border
+        -The enemies are being drawn too close to the left border; the panel
+        itself is centered perfectly
+-Move alignment calculations into GameObject
+-Doing calculations on what values to add to x and y pixel to fix center
+allignment
+-Move inversions of Enemy, Explosion, and Bullet out of PlayPanel
+   -PlayPanel has many constants than can be updated
+-Going through every file to see if there are constants that should be moved
+to World
+   -Got through QuestionPanel.java from bottom-up and PlayButton from top-down
+-Try to center align the images so the right hand border isn't larger than
+the left border
+-Delete PlayPanel in ControllerPanel because it's created in PlayBase
+-Add constants to world object
+     -Got to ImmuneSystemPanel when looking for constants to replace
+-Don't add PausePanel to both PlayBase and directly to ControllerPanel
+-Make another .txt file with short versions of answers for JRadioButton
+-Create class that ImmuneSystemPanel/HowToPlayPanel will extend
+        -Sort of like GameObject
+-Use some LayoutManager to place panels instead random x/y/width/height values
